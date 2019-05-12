@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://www.prashanttrpathi.ga/aboutme/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.1</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/achievements/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.3</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/career/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.4</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/contact/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/css</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/fonts</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/image</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/js</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/old/index.html</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.1</changefreq>
+ </url>
+ <url>
+  <loc>http://www.prashanttrpathi.ga/portfolio/index.php</loc>
+  <lastmod>monthly</lastmod>
+  <changefreq>0.5</changefreq>
+ </url>
+
+</urlset>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://prashanttripathi.ga/</loc>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/ptprashanttripathi.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/bg.jpg</image:loc>
+    </image:image>
+  </url> 
+    
+  <url>
+    <loc>http://prashanttripathi.ga/portfolio</loc>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/pandit.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/brosena.jpg</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>http://prashanttripathi.ga/image/personalweb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/html_tutorial.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/diy_editer.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/src.jpg</image:loc>
+    </image:image>
+	
+	
+  <url>
+    <loc>http://prashanttripathi.ga/portfolio/html_tutorial/</loc>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/html1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/html2.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>http://prashanttripathi.ga/image/html3.png</image:loc>
+    </image:image>
+  </url> 
+  
+  <url>
+    <loc>http://prashanttripathi.ga/portfolio/diy_editer/</loc>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/diy1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/diy2.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>http://prashanttripathi.ga/image/diy3.png</image:loc>
+    </image:image>
+  </url> 
+  
+  <url>
+    <loc>http://prashanttripathi.ga/portfolio/src/</loc>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/src1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://prashanttripathi.ga/image/src1.png</image:loc>
+    </image:image>
+  </url> 
+  </url> 
+</urlset> 

@@ -1,0 +1,5 @@
+ErrorDocument 400 http://prashanttripathi.ga/error
+ErrorDocument 401 http://prashanttripathi.ga/error
+ErrorDocument 403 http://prashanttripathi.ga/error
+ErrorDocument 404 http://prashanttripathi.ga/error
+ErrorDocument 503 http://prashanttripathi.ga/error
