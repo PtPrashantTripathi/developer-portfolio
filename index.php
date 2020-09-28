@@ -21,9 +21,23 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 	</div>
     <!--motivational quaotes-->
     <div class="row" id="main_quote">
-	<center>
-		<img id="slok" src="http://www.bhagavad-gita.org/Gita/png/verse-<?php echo $slok[rand(0,699)];?>-1.png" alt="Pt. Prashant Tripathi :: Gita Slok" class="img-responsive"  style="padding:10px 0;"/>    
-	<!--div class="col-xs-12"></div-->
+	<center><?php
+
+  $jsonurl='https://api.quotable.io/random'; 
+
+  $json = file_get_contents($jsonurl,0,null,null);  
+
+  $trend = json_decode($json, true);  
+
+   echo "<blockquote>
+
+    <p>".$trend['content']." </p><footer>- ".$trend['author']."</footer>
+
+  </blockquote>"; 
+
+?>
+		<!--img id="slok" src="http://www.bhagavad-gita.org/Gita/png/verse-<?php echo $slok[rand(0,699)];?>-1.png" alt="Pt. Prashant Tripathi :: Gita Slok" class="img-responsive"  style="padding:10px 0;"/>    
+	<div class="col-xs-12"></div-->
 	</center>
     </div>
 </div>
