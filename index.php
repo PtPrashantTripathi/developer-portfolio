@@ -14,7 +14,7 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 		<div class="col-xs-12 main_bg">
 			<br>
 			<!--div class="hidden-xs"><br><br><br><br></div-->
-			<img id="ptprashanttripathi" src="/image/ptprashanttripathi.jpg" alt="Pt. Prashant Tripathi" class="img  img-thumbnail img-responsive" style="height:100px"/> 
+			<img id="ptprashanttripathi" src="https://avatars1.githubusercontent.com/u/26687933?s=460&u=77ad09e2c60d22ff01ccb952ecafd3008b187a5d&v=4" alt="Pt. Prashant Tripathi" class="img  img-thumbnail img-responsive" style="height:100px"/> 
 			<br><br>
 			<div class="main_hd"><h2>Hi. I'm <br>Pt. Prashant Tripathi</h2><h4>Astrologer, Web Developer, B.E. Student.</h4></div>
 		</div>
