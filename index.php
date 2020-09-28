@@ -9,12 +9,12 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 ?>
 
 	<!--code for wallpaper start-->
-<div class="container-fluid">    
+<div class="container">    
 	<div class="row">
 		<center>
 			
 		
-			<img id="ptprashanttripathi" src="https://raw.githubusercontent.com/PtPrashantTripathi/PtPrashantTripathi/master/PicsArt_07-21-08.59.54.jpg" alt="Pt. Prashant Tripathi" class="img-fluid" style="height:200px"/> 
+			<img id="ptprashanttripathi" src="https://raw.githubusercontent.com/PtPrashantTripathi/PtPrashantTripathi/master/PicsArt_07-21-08.59.54.jpg" alt="Pt. Prashant Tripathi" class="img-responsive"/> 
 			
 			
 		</center>
