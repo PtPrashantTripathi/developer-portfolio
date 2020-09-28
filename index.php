@@ -29,11 +29,11 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 
   $trend = json_decode($json, true);  
 
-   echo "<blockquote>
+   echo "<font color="#fff">
 
-    <p>".$trend['content']." </p><footer>- ".$trend['author']."</footer>
+    <h4>".$trend['content']." </h4><b>- ".$trend['author']."</b>
 
-  </blockquote>"; 
+  </font>"; 
 
 ?>
 		<!--img id="slok" src="http://www.bhagavad-gita.org/Gita/png/verse-<?php echo $slok[rand(0,699)];?>-1.png" alt="Pt. Prashant Tripathi :: Gita Slok" class="img-responsive"  style="padding:10px 0;"/>    
