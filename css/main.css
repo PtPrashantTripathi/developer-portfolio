@@ -245,6 +245,7 @@ header{
     -webkit-animation: moveFromBottom 500ms ease;
     -moz-animation: moveFromBottom 500ms ease;
     -ms-animation: moveFromBottom 500ms ease;
+    border-radius: 16px;
 }
 @-webkit-keyframes smallToBig{
     from {

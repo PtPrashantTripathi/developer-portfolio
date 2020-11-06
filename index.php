@@ -29,7 +29,7 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 
   $trend = json_decode($json, true);  
 
-   echo "<font color="#fff">
+   echo "<font color='#fff'>
 
     <h4>".$trend['content']." </h4><b>- ".$trend['author']."</b>
 
