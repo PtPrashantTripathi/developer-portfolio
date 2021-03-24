@@ -209,7 +209,7 @@ $slok=array("01-01","01-02","01-03","01-04","01-05","01-06","01-07","01-08","01-
 
                         <p class="title2">Here you can see what my friends, relatives, colleagues and others have to say about me.
                             <br> No testimonial to display :( Be the first one to write a testimonial for me :)
-                            <br> If you want to write a testimonial for me <a href="mailto:pt8435782545@gmail.com" style="color:blue">click here.</a></p>
+                            <br> If you want to write a testimonial for me <a href="gmail.com" style="color:blue">click here.</a></p>
 
                     </div>
                 </div>
