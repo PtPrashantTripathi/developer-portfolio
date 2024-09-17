@@ -7,7 +7,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'dist/**'
+      - 'build/**'
 
   # Allow this workflow to be triggered manually from the Actions tab
   workflow_dispatch:
@@ -47,9 +47,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist/'  # Path to the folder containing static content to deploy
+          path: './build/'  # Path to the folder containing static content to deploy
 
       # Step 4: Deploy the uploaded artifact to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
