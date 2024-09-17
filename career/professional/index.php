@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
+$url = $_SERVER['REQUEST_URI'];
 
-       $title='Pt. Prashant Triapthi :: Professional Career' ;
-       $nav=4;
+       $title = 'Pt. Prashant Triapthi :: Professional Career' ;
+       $nav = 4;
        include '../../header.php';
 ?>
 

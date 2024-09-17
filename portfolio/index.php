@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
+$url = $_SERVER['REQUEST_URI'];
 
-       $title='Pt. Prashant Triapthi ::  Portfolio';
-       $nav=3;
+       $title = 'Pt. Prashant Triapthi ::  Portfolio';
+       $nav = 3;
        include '../header.php';
 ?>
 
@@ -70,7 +70,7 @@ $url=$_SERVER['REQUEST_URI'];
                 </div>
             </a>
             <!--card for single project end-->
-			
+            
             <!--card for single project-->
             <a href="/portfolio/html_tutorial">
                 <div class="col-xs-6 col-sm-3">

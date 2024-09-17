@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
+$url = $_SERVER['REQUEST_URI'];
 
-       $title='Pt. Prashant Triapthi :: Personal Website ';
-       $nav=3;
+       $title = 'Pt. Prashant Triapthi :: Personal Website ';
+       $nav = 3;
        include '../../header.php';
 ?>
 
@@ -19,7 +19,7 @@ $url=$_SERVER['REQUEST_URI'];
                                 <p class="title1">Prashanttripathi.ga</p>
                                 <p>It is a Personal Website.It is project of my web development </p>
                                 <p>It is Fully responsive and dyanmic .</p>
-								<p>To visit the website. Click here <a href="https://prashanttripathi.ga" style="color:blue;" target="_blank">https://prashanttripathi.ga</a></p>
+                                <p>To visit the website. Click here <a href="https://prashanttripathi.ga" style="color:blue;" target="_blank">https://prashanttripathi.ga</a></p>
 
                             </div>
 
@@ -44,7 +44,7 @@ $url=$_SERVER['REQUEST_URI'];
                                 <p>✔&nbsp;Achievements.</p>
                                 <p>✔&nbsp;Contact Details.</p>
                                 <p>✔&nbsp;Detailed info of all project.</p>
-								<p>✔&nbsp;Responsive mobile freindly.</p>
+                                <p>✔&nbsp;Responsive mobile freindly.</p>
                             </div>
 
                             <div class="col-xs-12 col-sm-6">
@@ -58,7 +58,7 @@ $url=$_SERVER['REQUEST_URI'];
                                 <p>✔&nbsp;PHP for backend.</p>
                                 <p>✔&nbsp;Javascript for dyanmic behaviour.</p>
                                 <p>✔&nbsp;Git for version control.</p>
-								<p>✔&nbsp;Apache server for hosting.</p>
+                                <p>✔&nbsp;Apache server for hosting.</p>
                             </div>
 
                         </div>

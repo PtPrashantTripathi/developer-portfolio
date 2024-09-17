@@ -1,7 +1,7 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
-       $title='Pt. Prashant Triapthi :: Contacts';
-       $nav=6;
+<?php
+$url = $_SERVER['REQUEST_URI'];
+       $title = 'Pt. Prashant Triapthi :: Contacts';
+       $nav = 6;
        include '../header.php';
 ?>
     <div class="container">
@@ -13,23 +13,23 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="panel-body" style="padding:50px;">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
-								<p class="title1">Ping me Quickly</p>
-								<br>
-								<p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="gmail.com">pt*******@gmail.com</a></p>
-								<br>
-								<p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84#######45"> +91-84#######45</a></p>
-							</div>
-						</div>
+                                <p class="title1">Ping me Quickly</p>
+                                <br>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="gmail.com">pt*******@gmail.com</a></p>
+                                <br>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84#######45"> +91-84#######45</a></p>
+                            </div>
+                        </div>
                         <hr>
-						
-						<div class="row">
+                        
+                        <div class="row">
                             <div class="col-xs-12 col-sm-6">
-							    <p class="title1">Find Me on Web</p>
-								<br>
+                                <p class="title1">Find Me on Web</p>
+                                <br>
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-twitter-box"></i>&nbsp;Twitter :
                                     <a href="https://twitter.com/PtPrashant09"> @PtPrashant09</a></p>
                                 <br>
-								
+                                
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-github-box"></i>&nbsp;GitHub :
                                     <a href="https://github.com/Pt-Prashant-Tripathi"> @Pt-Prashant-Triapthi</a></p>
                                 <br>
@@ -51,8 +51,8 @@ $url=$_SERVER['REQUEST_URI'];
                                 <br>
                             </div>
                         </div>
-						<hr>
-						
+                        <hr>
+                        
                         <p class="title1">Visit Me</p>
                         <br>
                         <div class="row">

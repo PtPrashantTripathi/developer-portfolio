@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
+$url = $_SERVER['REQUEST_URI'];
 
-       $title='Pt. Prashant Triapthi :: About me';
-       $nav=2;
+       $title = 'Pt. Prashant Triapthi :: About me';
+       $nav = 2;
        include '../header.php';
 ?>
 
@@ -105,7 +105,7 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="panel-body" style="padding:30px;">
                         <p class="title2">
                             <br> I am 20 years old. I am medium height (about ~ 5'8'' Feet) but I weigh about 143.3 lbs (65 kgs). First thing, I do not like being social - mostly because I do not know what it exactly means! I belong to a Common Indian Family, I have a sibling brother named Praveen Tripathi which older then me. I like music + hot Tea + black / green terminal and that is why I am often seen with all three of it. Like most engineers in India, I usually sleep late at night which a common thing between engineers, especially when they are hosteler. I like watching movies, music videos, web-series, anime, Best Original Shows on Netflix, Amazon and other streaming sites Apart from Computer Science, I am also interested in astronomy. I believe in God my <a href="https://en.wikipedia.org/wiki/I%E1%B9%A3%E1%B9%ADa-devat%C4%81_(Hinduism)" color="#F44336">Ishtadevata</a> is Lord Shiva but I am truly a devotee of  Tony Stark because of his Genius-level intellectual mind and also bcoz of his Genius, billionaire, playboy, philanthropist nature.
-							<br>
+                            <br>
                             <br> My failures have motivated me more than my achievements. I work as hard as possible. I am usually good at working under pressure with an upcoming deadline to meet. I also like self-learning usually via web. I hate reading books - novels, technical, academic, etc - all of it. I am not patient enough to read a whole book. I love debating especially technical debate among a small set of people. I am rarely angry. I am a vegetarian and like trying out new dishes and sweets. I never maintain notes and occasionally write stuff. I have travelled through more than 7 out 29 states in India because my father owns a tour travels agency. 
                             <br>
                             <br> I grew up in Mandla, India. My childhood was a happy one (:P). I was only a non-average student at my school. I was always good at logic. I have done my 10+2 education in Bharat Jyoti Vidyalaya, Mandla - one of the best and prestigious schools in India, run by Some Catholic Society of India, It played a pivotal role in my academic career. After that, I joined Gyan Ganga for Engg. but because some issues I failed to continue my studies and thus I went Vrindavan To join Joytis Anushanda Kendra to Learn Astrology not for becoming astrologer but for learning accent Indian technology and science of astronomy and physics. After then I join St. Aloysius Institute of technology, Jabalpur. I made a lot of friends here. I learn a lot here - every day. I took up a couple of leadership roles too. Currently, I am in my Second year. I try to learn from everyone here. I also try to help others as much as possible.

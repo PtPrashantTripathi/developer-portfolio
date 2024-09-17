@@ -1,7 +1,7 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
-       $title='Pt. Prashant Triapthi :: Brosena';
-       $nav=3;
+<?php
+$url = $_SERVER['REQUEST_URI'];
+       $title = 'Pt. Prashant Triapthi :: Brosena';
+       $nav = 3;
        include '../../header.php';
 ?>
 
@@ -17,8 +17,8 @@ $url=$_SERVER['REQUEST_URI'];
                             <div class="col-xs-12 col-sm-6">
                                 <p class="title1">Brosena </p>
                                 <p class="title2">It is a fully dyanmic Social Networking website. </p>
-								<p class="title2">This website was developed by me on aug 2017. </p>
-								<p class="title2">Now, my team is resposible for maintenance of this website.</p>
+                                <p class="title2">This website was developed by me on aug 2017. </p>
+                                <p class="title2">Now, my team is resposible for maintenance of this website.</p>
                                 <p class="title2">It is Fully responsive and dyanmic .</p>
 
                                 <p>To visit the website. Click here <a href="http://brosena.ga" style="color:blue;" target="_blank">http://brosena.ga</a></p>

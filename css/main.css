@@ -7,29 +7,29 @@ table tr td{
 }
 a
 {
-	text-decoration:none;
-	color:#202020;
+    text-decoration:none;
+    color:#202020;
 }
 a:hover
 {
-	text-decoration:none;
+    text-decoration:none;
 }
 a.panel-heading:visited
-{ 
+{
      text-decoration: none !important;
 }
 :visited
-{ 
+{
      text-decoration: none !important;
 }
 
 body
 {
     color:#202020;
-	overflow-x:hidden;
+    overflow-x:hidden;
     transition-duration: 2s;
     transition-timing-function: linear;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr//Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);
 }
 
 
@@ -43,7 +43,7 @@ background: #F44336; color: #fff; }
 .span{
    display: table-cell;
   vertical-align: middle;
-    
+
 }
 .panel-heading
 {
@@ -52,12 +52,12 @@ background: #F44336; color: #fff; }
 .login
 {
    width: 80%;
-   
+
 }
 .panel
 {
     border-radius: 0px;
-  
+
 }
 
 /*footer css */
@@ -67,35 +67,35 @@ background: #F44336; color: #fff; }
      border-top: 4px solid #F44336;
 
 }
- 
+
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height:auto;
     line-height: 50px;
     color: rgba(255, 255, 255, 0.8);
     background-color:#F44336;
-	
+
   }
 .white-text {
   color: #FFFFFF !important; }
 .footer .page-footer  ul  li
 {
-	text-decoration:none;
+    text-decoration:none;
 }
 .footerleft a
 {
-	color:#fff;
+    color:#fff;
 }
 
 .footerleft a:hover
 {
-	color:#F44336;
+    color:#F44336;
 }
-.footerright ul 
+.footerright ul
 {
-	list-style-type:none;
-    
- 
+    list-style-type:none;
+
+
 }
 .fix
 {
@@ -117,7 +117,7 @@ background: #F44336; color: #fff; }
 
 .modal-footer{
         background-color:#F44336;
-  color:#fff; 
+  color:#fff;
 }
 .modal-footer button{
     margin: 20px;
@@ -133,11 +133,11 @@ header{
     margin: 5px;
 }
 .title1{
-  
+
     font-size: 17px;
     color: #F44336;
- 
-   
+
+
 
 }
 .title2,p{
@@ -158,7 +158,7 @@ header{
    background-image: url('/image/bg.jpg');
    background-size: cover;
 }
- 
+
 #ptprashanttripathi{
     vertical-align: middle;
 }
@@ -168,7 +168,7 @@ header{
     color: #fff;
     text-align: center;
    padding: 10px,0;
-    
+
 }
 
 /*css for main menu */
@@ -217,7 +217,7 @@ header{
     color: #666;
     line-height: 20px;
     opacity: 0.8;
-    width: 100%; 
+    width: 100%;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -o-transition: all 200ms linear;
@@ -326,7 +326,7 @@ header{
 .social tbody tr td a{
     color:#2196F3;
     text-decoration:underline;
-    
+
 }
 .social tbody tr td a:hover{
     text-decoration: none;
