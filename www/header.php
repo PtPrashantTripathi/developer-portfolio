@@ -7,7 +7,11 @@ if (!isset($nav)) {
 date_default_timezone_set('Asia/Calcutta');
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
-session_start();
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 $meta = '
 <meta name="title" content="' . $title . '" />
 <meta name="description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  " />
