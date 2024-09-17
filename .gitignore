@@ -278,7 +278,6 @@ tmtags
 **/nbproject/private/
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
-build/
 nbbuild/
 dist/
 nbdist/
@@ -436,8 +435,7 @@ config.codekit3
 
 ##### Gradle
 .gradle
-**/build/
-!src/**/build/
+!src/**//
 
 # Ignore Gradle GUI config
 gradle-app.setting
