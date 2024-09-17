@@ -435,7 +435,6 @@ config.codekit3
 
 ##### Gradle
 .gradle
-**//
 !src/**//
 
 # Ignore Gradle GUI config
