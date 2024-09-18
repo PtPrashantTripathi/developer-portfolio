@@ -18,7 +18,7 @@ if (!isset($prefix)) {
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <center>Pt. Prashant Tripathi © 2018 All Rights Reserved. </center>
+                    <center>Pt. Prashant Tripathi © <b id="year">2017 - 2018</b> All Rights Reserved. </center>
                 </div>
             </div>
         </div>

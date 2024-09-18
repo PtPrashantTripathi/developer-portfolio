@@ -1,5 +1,0 @@
-ErrorDocument 400 http://ptprashanttripathi.github.io/developer-portfolio/error
-ErrorDocument 401 http://ptprashanttripathi.github.io/developer-portfolio/error
-ErrorDocument 403 http://ptprashanttripathi.github.io/developer-portfolio/error
-ErrorDocument 404 http://ptprashanttripathi.github.io/developer-portfolio/error
-ErrorDocument 503 http://ptprashanttripathi.github.io/developer-portfolio/error

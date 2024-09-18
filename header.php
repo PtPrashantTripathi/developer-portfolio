@@ -90,26 +90,27 @@ $prefix = file_path_prefix($base_dir, $file_path);
 <meta name="twitter:image" content="<?php echo $prefix;?>assets/image/pandit.png">
 <meta name="twitter:image:alt" content="P.A.N.D.I.T.">
 
-            <link href="<?php echo $prefix;?>assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
-            <link href="<?php echo $prefix;?>assets/css/bootstrap.min.css" rel="stylesheet">
-            <link href="<?php echo $prefix;?>assets/css/bootstrap-theme.min.css" rel="stylesheet">
-            <link href="<?php echo $prefix;?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
-            <link href="<?php echo $prefix;?>assets/css/main.css" rel="stylesheet">
-            <script src="<?php echo $prefix;?>assets/js/jquery.min.js"></script>
-            <link href="<?php echo $prefix;?>assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-            <script type="application/ld+json">
-                {
-                  "@context": "http://schema.org",
-                  "@type": "Person",
-                  "name": "Pt. Prashant Tripathi",
-                  "jobTitle": "Web Devloper",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Jabalpur",
-                    "addressRegion": "MP, India"
-                  }
-                }
-            </script>
+<link href="<?php echo $prefix;?>assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+<link href="<?php echo $prefix;?>assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo $prefix;?>assets/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="<?php echo $prefix;?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+<link href="<?php echo $prefix;?>assets/css/main.css" rel="stylesheet">
+<script src="<?php echo $prefix;?>assets/js/jquery.min.js"></script>
+<link href="<?php echo $prefix;?>assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Pt. Prashant Tripathi",
+        "jobTitle": "Web Devloper",
+        "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jabalpur",
+        "addressRegion": "MP, India"
+        }
+    }
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113286359-1"></script>
 <script>

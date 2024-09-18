@@ -21,11 +21,11 @@
         <div class="row">
 
             <!--card for single project-->
-            <a href="/portfolio/brosena">
+            <a href="./brosena">
                 <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="assets/image/brosena.jpg" />
+                            <img src="../assets/image/brosena.jpg" />
                         </div>
                         <div class="panel-body" style="border-top:2px solid #202020;">
                             <p class="title1" style="margin-top:-3px;">Brosena</p>
@@ -38,14 +38,14 @@
             <!--card for single project end-->
 
             <!--card for single project-->
-            <a href="/portfolio/personalweb">
+            <a href="./personalweb">
                 <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="assets/image/personalweb.jpg" />
+                            <img src="../assets/image/personalweb.jpg" />
                         </div>
                         <div class="panel-body" style="border-top:2px solid #202020;">
-                            <p class="title1" style="margin-top:-3px;">ptprashanttripathi.github.io/developer-portfolio </p>
+                            <p class="title1" style="margin-top:-3px;">developer-portfolio</p>
                             <p class="title3">Personal Portfolio Website</p>
                         </div>
 
@@ -55,11 +55,11 @@
             <!--card for single project end-->
 
             <!--card for single project-->
-            <a href="/portfolio/html_tutorial">
+            <a href="./html_tutorial">
                 <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="assets/image/html_tutorial.jpg" />
+                            <img src="../assets/image/html_tutorial.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">HTML Tutorial</p>
@@ -72,11 +72,11 @@
             <!--card for single project end-->
 
             <!--card for single project-->
-            <a href="/portfolio/diy_editer">
+            <a href="./diy_editer">
                 <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="assets/image/diy_editer.jpg" />
+                            <img src="../assets/image/diy_editer.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">DIY Editer</p>
@@ -89,11 +89,11 @@
             <!--card for single project end-->
 
             <!--card for single project-->
-            <a href="/portfolio/src">
+            <a href="./src">
                 <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="assets/image/src.jpg" />
+                            <img src="../assets/image/src.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">Smart Resistance Calculator</p>

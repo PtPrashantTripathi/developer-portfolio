@@ -32,7 +32,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="assets/image/saitlogo.png" align="right" style="height:120px;width:120px;padding:10px;" /> I am currently pursuing my undergraduate education at the St. Aloysius Institute of Technology(SAIT). it's a technical institute located in Jabalpur, Madhya Pradesh, India. The institute was founded in 2009 and offers bachelors' degrees in engineering and polytechnic. It is affiliated to Rajiv Gandhi Praudyogiki Vishwavidyalaya and is accredited by the National Board of Accreditation of the All India Council for Technical Education.
+                                <img src="../../assets/image/saitlogo.png" align="right" style="height:120px;width:120px;padding:10px;" /> I am currently pursuing my undergraduate education at the St. Aloysius Institute of Technology(SAIT). it's a technical institute located in Jabalpur, Madhya Pradesh, India. The institute was founded in 2009 and offers bachelors' degrees in engineering and polytechnic. It is affiliated to Rajiv Gandhi Praudyogiki Vishwavidyalaya and is accredited by the National Board of Accreditation of the All India Council for Technical Education.
                             </p>
                         </div>
 
@@ -79,7 +79,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
+                                <img src="../../assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
                             </p>
                         </div>
                         <p class="title">Quick Facts</p>
@@ -128,7 +128,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
+                                <img src="../../assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
                             </p>
                         </div>
 
