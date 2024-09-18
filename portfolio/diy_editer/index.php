@@ -25,9 +25,9 @@
                             </div>
 
                             <div class="col-xs-12 col-sm-6">
-                                <img src="assets/image/diy1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                                <img src="assets/image/diy2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                                <img src="assets/image/diy3.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/diy1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/diy2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/diy3.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
                             </div>
 
                         </div>

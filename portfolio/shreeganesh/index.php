@@ -84,13 +84,13 @@
                              <div class="col-xs-12 col-sm-6">
 
 
-                                <img src="assets/image/shreeganesh1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/shreeganesh1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
 
 
-                                <img src="assets/image/shreeganesh2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/shreeganesh2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
 
 
-                                <img src="assets/image/shreeganesh3.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/shreeganesh3.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
 
 
                             </div>

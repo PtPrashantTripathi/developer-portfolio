@@ -24,8 +24,8 @@
                             </div>
 
                              <div class="col-xs-12 col-sm-6">
-                                <img src="assets/image/src1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                                <img src="assets/image/src2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/src1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="../../assets/image/src2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
                             </div>
 
                         </div>

@@ -26,7 +26,7 @@
                             </div>
 
                             <div class="col-xs-12 col-sm-6">
-                                <img src="assets/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
+                                <img src="../../assets/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
                             </div>
 
                         </div>

@@ -11,7 +11,7 @@ include 'header.php';
         <div class="col-xs-12 main_bg">
             <br>
             <div class="hidden-xs"><br><br><br><br></div>
-            <img id="ptprashanttripathi" src="assets/image/pandit.png" alt="Pt. Prashant Tripathi"
+            <img id="ptprashanttripathi" src="./assets/image/pandit.png" alt="Pt. Prashant Tripathi"
                 class="img img-circle img-thumbnail img-responsive" height="120px" width="120px" />
             <br><br>
             <h2>Hi. I'm <br>Pt. Prashant Tripathi</h2>
