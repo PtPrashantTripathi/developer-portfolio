@@ -34,9 +34,9 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="assets/image/netcamp-logo.jpg" align="right" style="height:120px;width:200px;padding:10px;" /> I was a Summer Trainee at Netcamp Pvt Limited . It is a specialized company which helps undergraduate students develop their programming skills during their vacation. Each week required 45 hrs of effort. Every training session was like a small scale hackathon - where I had to innovate, design and build. The training had both classroom as well as practical components.
+                                <img src="../../assets/image/netcamp-logo.png" align="right" style="height:120px;width:200px;padding:10px;" /> I was a Summer Trainee at Netcamp Pvt Limited . It is a specialized company which helps undergraduate students develop their programming skills during their vacation. Each week required 45 hrs of effort. Every training session was like a small scale hackathon - where I had to innovate, design and build. The training had both classroom as well as practical components.
                             </p>
-                            <P>Certificates : <a href="https://drive.google.com/folderview?id=0B68yhAQuW4sTbmxzQVp2bFVxVnM&usp=sharing" target="_blank" style="color:blue">Click here.</a></P>
+                            
                         </div>
 
                     </div>
@@ -47,11 +47,11 @@
                     </center>
                     <br>
                     <!--quick fact for training start-->
-                    <p>✔&nbsp;<strong>Organization</strong>&nbsp; :&nbsp; <a href="http://www.netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
+                    <p>✔&nbsp;<strong>Organization</strong>&nbsp; :&nbsp; <a href="netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
 
                     <p>✔&nbsp;<strong>Location</strong>&nbsp;: LNIIT ,Jaipur ,India</p>
 
-                    <p>✔&nbsp;<strong>Duration</strong>&nbsp;: 160 hrs - June, 2013 to July, 2013.</p>
+                    <p>✔&nbsp;<strong>Duration</strong>&nbsp;: 160 hrs - June, 2017 to July, 2017.</p>
 
                     <p>✔&nbsp;<strong>Area</strong>&nbsp;: Network Management & Ethical Hacking with Web Development</p>
 

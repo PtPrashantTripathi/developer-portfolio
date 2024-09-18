@@ -168,7 +168,7 @@ $prefix = file_path_prefix($base_dir, $file_path);
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-school"></i>&nbsp;Career<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="<?php echo $prefix;?>career/academic">Academic Career</a></li>
-                                            <!--li><a href="career/professional">Professional Career</a></li-->
+                                            <li><a href="<?php echo $prefix;?>career/professional">Professional Career</a></li>
 
                                         </ul>
                                     </li>
