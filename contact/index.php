@@ -17,7 +17,7 @@
                                 <br>
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="mailto:ptprashanttripathi@outlook.com">ptprashanttripathi@outlook.com</a></p>
                                 <br>
-                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:8435782545"> +91-8435782545</a></p>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84********"> +91-84********</a></p>
                             </div>
                         </div>
                         <hr>
@@ -31,7 +31,7 @@
                                 <br>
                                 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-github-box"></i>&nbsp;GitHub :
-                                    <a href="https://github.com/Pt-Prashant-Tripathi"> @Pt-Prashant-Triapthi</a></p>
+                                    <a href="https://github.com/ptprashanttripathi"> @ptprashanttripathi</a></p>
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-facebook-box"></i>&nbsp;Facebook :
@@ -47,7 +47,7 @@
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-quicktime"></i>&nbsp;Quora :
-                                    <a href="https://www.quora.com/profile/Pt-Prashant-Tripathi">PtPrashantTriapthi</a></p>
+                                    <a href="https://www.quora.com/profile/ptprashanttripathi">PtPrashantTriapthi</a></p>
                                 <br>
                             </div>
                         </div>

@@ -19,7 +19,7 @@
                                 <p class="title1">Smart Resistance Calculator</p>
                                 <p>A android app which provide user to calc the Values of Resister.</p>
                                 <p>It is Simpaly functional android app</p>
-                                <p>To view source code & live working of this project <a href="https://pt-prashant-tripathi.github.io/Smart-Resisrance-Calculator/" style="color:blue;" target="_blank">View on github.io</a></p>
+                                <p>To view source code & live working of this project <a href="https://ptprashanttripathi.github.io/Smart-Resisrance-Calculator/" style="color:blue;" target="_blank">View on github.io</a></p>
                                 <p>And Click Hare to downlode this project <a href="https://drive.google.com/open?id=0B4jxiBRriV_lQjM4dHktTmIxN3c" style="color:blue;" target="_blank">Smart-Resisrance-Calculator.apk</a></p>
                             </div>
 

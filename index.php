@@ -48,7 +48,7 @@ include 'header.php';
         <div class="col-xs-12 col-sm-3 lib">
             <div class="panel panel-default">
                 <div class="panel-body lib_body">
-                    <a href="https://github.com/Pt-Prashant-Tripathi" target="_blank">
+                    <a href="https://github.com/ptprashanttripathi" target="_blank">
                         <center><span class="ca-icon"><i class="mdi mdi-code-tags"></i></span></center>
                         <div class="ca-content">
                             <h2 class="ca-main">Work sample</h2>
