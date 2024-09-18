@@ -15,6 +15,6 @@
     "scripts": {
         "server": "php -S localhost:8000 -t .",
         "format": "phpcbf --standard=PSR12 .",
-        "build": "wget -P build/ -nH --html-extension -r localhost:8000"
+        "build": "wget -P build/ -nH --html-extension -r localhost:8000 -d"
     }
 }

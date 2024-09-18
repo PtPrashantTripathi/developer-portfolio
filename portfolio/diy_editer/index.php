@@ -3,7 +3,7 @@
 
        $title = 'Pt. Prashant Triapthi :: Diy Editor';
        $nav = 3;
-       include '../../header.php';
+       require '../../header.php';
 ?>
 
     <div class="container">
@@ -72,4 +72,4 @@
         </div>
     </div>
 
-    <?php include '../../footer.php' ;?>
+    <?php require '../../footer.php' ;

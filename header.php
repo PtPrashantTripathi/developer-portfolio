@@ -4,15 +4,16 @@ if (!isset($nav)) {
     $nav = 0;
 }
 
-date_default_timezone_set( 'Asia/Calcutta');
-error_reporting( E_ALL);
-ini_set( "display_errors",  1);
+date_default_timezone_set('Asia/Calcutta');
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
 
-function file_path_prefix($base_dir, $file_path) {
+function file_path_prefix($base_dir, $file_path)
+{
     // Ensure both base_dir and file_path do not have trailing slashes
     $base_dir = rtrim($base_dir, '/');
     $file_path = rtrim($file_path, '/');

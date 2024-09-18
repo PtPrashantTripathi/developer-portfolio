@@ -2,7 +2,7 @@
 
        $title = 'Pt. Prashant Triapthi :: Contacts';
        $nav = 6;
-       include '../header.php';
+       require '../header.php';
 ?>
     <div class="container">
         <div class="row">
@@ -98,4 +98,4 @@
 
         </div>
     </div>
-    <?php include '../footer.php' ?>
+    <?php require '../footer.php';

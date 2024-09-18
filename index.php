@@ -2,7 +2,7 @@
 
 $title = 'Pt. Prashant Triapthi :: Home';
 $nav = 1;
-include 'header.php';
+require 'header.php';
 ?>
 
 <!--code for wallpaper start-->
@@ -207,4 +207,4 @@ fetch(gitaslokid())
 
 </script>
 <!--footer start-->
-<?php include 'footer.php' ?>
+<?php require 'footer.php';

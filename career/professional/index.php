@@ -3,7 +3,7 @@
 
        $title = 'Pt. Prashant Triapthi :: Professional Career' ;
        $nav = 4;
-       include '../../header.php';
+       require '../../header.php';
 ?>
 
     <div class="container">
@@ -173,4 +173,4 @@
         </div>
     </div>
 
-    <?php include '../../footer.php' ?>
+    <?php require '../../footer.php';

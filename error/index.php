@@ -1,10 +1,8 @@
 <?php
 
-
-
        $title = 'Pt. Prashant Triapthi :: ERROR-404';
        //$nav=2;
-       include '../header.php';
+       require '../header.php';
         /*400 (Bad Request)
         /error/?error=400
         401 (Unauthorized)

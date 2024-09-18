@@ -1,7 +1,7 @@
 <?php
 $title = 'Pt. Prashant Triapthi :: About me';
 $nav = 2;
-include '../header.php';
+require '../header.php';
 ?>
 </script>
 
@@ -150,4 +150,4 @@ include '../header.php';
     </div>
 </div>
 
-<?php include '../footer.php'; ?>
+<?php require '../footer.php';

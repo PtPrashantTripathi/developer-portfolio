@@ -12,7 +12,7 @@
        $nav = 3;
 
 
-       include '../../header.php';
+       require '../../header.php';
 
 ?>
 
@@ -206,4 +206,4 @@
 
 
 
-    <?php include '../../footer.php' ;?>
+    <?php require '../../footer.php' ;
