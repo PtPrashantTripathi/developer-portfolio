@@ -47,7 +47,7 @@
                     </center>
                     <br>
                     <!--quick fact for training start-->
-                    <p>✔&nbsp;<strong>Organization</strong>&nbsp; :&nbsp; <a href="netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
+                    <p>✔&nbsp;<strong>Organization</strong>&nbsp; :&nbsp; <a href="https://netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
 
                     <p>✔&nbsp;<strong>Location</strong>&nbsp;: LNIIT ,Jaipur ,India</p>
 
