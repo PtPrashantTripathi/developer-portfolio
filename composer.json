@@ -1,5 +1,5 @@
 {
-    "name": "PtPrashantTripathi/developer-portfolio",
+    "name": "ptprashanttripathi/developer-portfolio",
     "description": "My personal blog",
     "type": "project",
     "authors": [
@@ -13,12 +13,8 @@
         "squizlabs/php_codesniffer": "^3.10"
     },
     "scripts": {
-        "server": "php -S localhost:8000 -t ./src",
-        "format": "phpcbf --standard=PSR12 ./src",
-
-    "build": [
-            "rm -rf build/*",
-                        "wget -P build/ -nH --html-extension -r localhost:8000"
-        ]}
+        "server": "php -S localhost:8000 -t .",
+        "format": "phpcbf --standard=PSR12 .",
+        "build": "wget -P build/ -nH --html-extension -r localhost:8000 -d"
+    }
 }
-
