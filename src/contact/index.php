@@ -15,9 +15,9 @@ $url = $_SERVER['REQUEST_URI'];
                             <div class="col-xs-12 col-sm-6">
                                 <p class="title1">Ping me Quickly</p>
                                 <br>
-                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="gmail.com">pt*******@gmail.com</a></p>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="mailto:pt8435782545@gmail.com">pt8435782545@gmail.com</a></p>
                                 <br>
-                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84#######45"> +91-84#######45</a></p>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:8435782545"> +91-8435782545</a></p>
                             </div>
                         </div>
                         <hr>

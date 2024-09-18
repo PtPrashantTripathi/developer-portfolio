@@ -7,11 +7,7 @@ if (!isset($nav)) {
 date_default_timezone_set('Asia/Calcutta');
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
-
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
+session_start();
 $meta = '
 <meta name="title" content="' . $title . '" />
 <meta name="description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  " />
@@ -26,8 +22,8 @@ $meta = '
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Pt. Prashant Tripathi">
-<meta property="og:url" content="http://www.Prashanttripathi.ga' . $url . '">
-<meta property="og:image" content="/image/ptprashanttripathi.jpg">
+<meta property="og:url" content="http://www.ptprashanttripathi.github.io/developer-portfolio' . $url . '">
+<meta property="og:image" content="assets/image/ptprashanttripathi.jpg">
 <meta property="og:site_name" content="Prashanttriapthi.ga" />
 <meta property="og:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
 <meta property="profile:gender" content="male">
@@ -38,10 +34,10 @@ $meta = '
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@PtPrashant09">
-<meta name="twitter:site" content="http://prashanttripathi.ga">
+<meta name="twitter:site" content="http://ptprashanttripathi.github.io/developer-portfolio">
 <meta name="twitter:title" content="' . $title . '">
 <meta name="twitter:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
-<meta name="twitter:image" content="/image/ptprashanttripathi.jpg">
+<meta name="twitter:image" content="assets/image/ptprashanttripathi.jpg">
 <meta name="twitter:image:alt" content="P.A.N.D.I.T.">
 
 ';
@@ -58,16 +54,15 @@ $meta = '
         <title>
             <?php echo $title ?>
         </title>
-        <link rel="shortcut icon" href="/image/pandit.png">
+        <link rel="shortcut icon" href="assets/image/pandit.png">
         <?php echo $meta; ?>
-            <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet">
-            <link href="/css/bootstrap.min.css" rel="stylesheet">
-            <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-            <link href="/css/bootstrap-material-design.min.css" rel="stylesheet">
-            <link href="/css/main.css" rel="stylesheet">
-            <script src="/js/jquery.min.js"></script>
-            <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+            <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+            <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+            <link href="assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+            <link href="assets/css/main.css" rel="stylesheet">
+            <script src="assets/js/jquery.min.js"></script>
+            <link href="assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
             <script type="application/ld+json">
                 {
                   "@context": "http://schema.org/",

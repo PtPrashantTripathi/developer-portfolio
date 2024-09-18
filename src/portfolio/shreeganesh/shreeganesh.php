@@ -18,7 +18,7 @@
 
 		
 
-		            background-image: url(/image/ganesha.jpeg);
+		            background-image: url(assets/image/ganesha.jpeg);
 
 		
 

@@ -34,7 +34,7 @@ $url = $_SERVER['REQUEST_URI'];
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="/image/netcamp-logo.jpg" align="right" style="height:120px;width:200px;padding:10px;" /> I was a Summer Trainee at Netcamp Pvt Limited . It is a specialized company which helps undergraduate students develop their programming skills during their vacation. Each week required 45 hrs of effort. Every training session was like a small scale hackathon - where I had to innovate, design and build. The training had both classroom as well as practical components.
+                                <img src="assets/image/netcamp-logo.jpg" align="right" style="height:120px;width:200px;padding:10px;" /> I was a Summer Trainee at Netcamp Pvt Limited . It is a specialized company which helps undergraduate students develop their programming skills during their vacation. Each week required 45 hrs of effort. Every training session was like a small scale hackathon - where I had to innovate, design and build. The training had both classroom as well as practical components.
                             </p>
                             <P>Certificates : <a href="https://drive.google.com/folderview?id=0B68yhAQuW4sTbmxzQVp2bFVxVnM&usp=sharing" target="_blank" style="color:blue">Click here.</a></P>
                         </div>

@@ -11,7 +11,7 @@ $url = $_SERVER['REQUEST_URI'];
 
             <div class="col-xs-12 ">
                 <div class="panel panel-primary">
-                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="/ portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                     <div class="panel-body" style="padding:50px;">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
@@ -26,7 +26,7 @@ $url = $_SERVER['REQUEST_URI'];
                             </div>
 
                             <div class="col-xs-12 col-sm-6">
-                                <img src="/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
+                                <img src="assets/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
                             </div>
 
                         </div>

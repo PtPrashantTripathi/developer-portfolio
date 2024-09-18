@@ -12,7 +12,7 @@ $url = $_SERVER['REQUEST_URI'];
 
             <div class="col-xs-12 ">
                 <div class="panel panel-primary">
-                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Smart Resistance Calculator <a href="/ portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Smart Resistance Calculator <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                     <div class="panel-body" style="padding:50px;">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6"> 
@@ -24,8 +24,8 @@ $url = $_SERVER['REQUEST_URI'];
                             </div>
 
                              <div class="col-xs-12 col-sm-6">
-                                <img src="/image/src1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                                <img src="/image/src2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="assets/image/src1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                                <img src="assets/image/src2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
                             </div>
 
                         </div>

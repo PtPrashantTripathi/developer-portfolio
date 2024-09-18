@@ -1,5 +1,5 @@
 {
-    "name": "PtPrashantTripathi/developer-portfolio",
+    "name": "ptprashanttripathi/developer-portfolio",
     "description": "My personal blog",
     "type": "project",
     "authors": [
@@ -15,10 +15,9 @@
     "scripts": {
         "server": "php -S localhost:8000 -t ./src",
         "format": "phpcbf --standard=PSR12 ./src",
-
-    "build": [
+        "build": [
             "rm -rf build/*",
-                        "wget -P build/ -nH --html-extension -r localhost:8000"
-        ]}
+            "wget -P build/ -nH --html-extension -r localhost:8000"
+        ]
+    }
 }
-

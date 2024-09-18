@@ -22,10 +22,10 @@ $url = $_SERVER['REQUEST_URI'];
 
             <!--card for single project-->
             <a href="/portfolio/brosena">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/brosena.jpg" />
+                            <img src="assets/image/brosena.jpg" />
                         </div>
                         <div class="panel-body" style="border-top:2px solid #202020;">
                             <p class="title1" style="margin-top:-3px;">Brosena</p>
@@ -39,13 +39,13 @@ $url = $_SERVER['REQUEST_URI'];
 
             <!--card for single project-->
             <a href="/portfolio/personalweb">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/personalweb.jpg" />
+                            <img src="assets/image/personalweb.jpg" />
                         </div>
                         <div class="panel-body" style="border-top:2px solid #202020;">
-                            <p class="title1" style="margin-top:-3px;">Prashanttripathi.ga </p>
+                            <p class="title1" style="margin-top:-3px;">ptprashanttripathi.github.io/developer-portfolio </p>
                             <p class="title3">Personal Portfolio Website</p>
                         </div>
 
@@ -55,28 +55,11 @@ $url = $_SERVER['REQUEST_URI'];
             <!--card for single project end-->
 
             <!--card for single project-->
-            <a href="/portfolio/shreeganesh">
-                <div class="col-xs-6 col-sm-3">
-                    <div class="panel panel-primary  hoverable">
-                        <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/shreeganesh_icon.png" />
-                        </div>
-                        <div class="panel-body">
-                            <p class="title1">श्री गणेश</p>
-                            <p class="title3">android app</p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-            <!--card for single project end-->
-            
-            <!--card for single project-->
             <a href="/portfolio/html_tutorial">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/html_tutorial.jpg" />
+                            <img src="assets/image/html_tutorial.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">HTML Tutorial</p>
@@ -90,10 +73,10 @@ $url = $_SERVER['REQUEST_URI'];
 
             <!--card for single project-->
             <a href="/portfolio/diy_editer">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/diy_editer.jpg" />
+                            <img src="assets/image/diy_editer.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">DIY Editer</p>
@@ -107,10 +90,10 @@ $url = $_SERVER['REQUEST_URI'];
 
             <!--card for single project-->
             <a href="/portfolio/src">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="panel panel-primary  hoverable">
                         <div class="panel-heading panel-heading-custom card-photo">
-                            <img src="/image/src.jpg" />
+                            <img src="assets/image/src.jpg" />
                         </div>
                         <div class="panel-body">
                             <p class="title1">Smart Resistance Calculator</p>
@@ -125,7 +108,7 @@ $url = $_SERVER['REQUEST_URI'];
             <div class="col-xs-12" id="technical">
                 <div class="panel panel-primary">
                     <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Technical Skills</div>
-                    <div class="panel-body" style="padding:20px;">
+                    <div class="panel-body" style="padding:50px;">
                         <p class="title2">This section outlines my technical ability. It is not an exhaustive list however I have tried to list most of the significant technical skills that I have learned throughout my life. While I love to expand my skill-set as much as possible, I also understand the importance of having a strong command over smaller set of tools than a weak command over larger set of tools</p>
                         <br>
                         <div class="row">

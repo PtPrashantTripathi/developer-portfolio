@@ -22,22 +22,22 @@ $url = $_SERVER['REQUEST_URI'];
 
                         <hr>
 
-                        <p class="title2"><img src="/image/sololearn-html.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">HTML Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="assets/image/sololearn-html.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">HTML Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1014-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-css.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">CSS Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="assets/image/sololearn-css.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">CSS Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1023-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-js.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">JavaScript Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="assets/image/sololearn-js.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">JavaScript Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1024-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-php.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">PHP Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="assets/image/sololearn-php.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">PHP Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1059-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
