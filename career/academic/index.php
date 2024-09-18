@@ -1,9 +1,9 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
 
-       $title='Pt. Prashant Triapthi :: Academic Career';
-       $nav=4;
-       include '../../header.php';
+
+       $title = 'Pt. Prashant Triapthi :: Academic Career';
+       $nav = 4;
+       require '../../header.php';
 ?>
 
     <div class="container">
@@ -32,7 +32,7 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="/image/saitlogo.png" align="right" style="height:120px;width:120px;padding:10px;" /> I am currently pursuing my undergraduate education at the St. Aloysius Institute of Technology(SAIT). it's a technical institute located in Jabalpur, Madhya Pradesh, India. The institute was founded in 2009 and offers bachelors' degrees in engineering and polytechnic. It is affiliated to Rajiv Gandhi Praudyogiki Vishwavidyalaya and is accredited by the National Board of Accreditation of the All India Council for Technical Education.
+                                <img src="../../assets/image/saitlogo.png" align="right" style="height:120px;width:120px;padding:10px;" /> I am currently pursuing my undergraduate education at the St. Aloysius Institute of Technology(SAIT). it's a technical institute located in Jabalpur, Madhya Pradesh, India. The institute was founded in 2009 and offers bachelors' degrees in engineering and polytechnic. It is affiliated to Rajiv Gandhi Praudyogiki Vishwavidyalaya and is accredited by the National Board of Accreditation of the All India Council for Technical Education.
                             </p>
                         </div>
 
@@ -79,7 +79,7 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
+                                <img src="../../assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
                             </p>
                         </div>
                         <p class="title">Quick Facts</p>
@@ -101,7 +101,7 @@ $url=$_SERVER['REQUEST_URI'];
 
                     <p>✔&nbsp;<strong>Final Score</strong>&nbsp;: 82%</p>
 
-                    <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="" target="_blank">12th Marksheet</a>,&nbsp;</p>
+                    <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="https://drive.google.com/open?id=12kbWLs4KhgZ2Sq3wbiB2_rxrnNYOYzPn" target="_blank">12th Marksheet</a>,&nbsp;</p>
 
                     <br>
                     <br>
@@ -128,7 +128,7 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="row">
                         <div class="col-xs-12">
                             <p class="title3">
-                                <img src="/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
+                                <img src="../../assets/image/bjvlogo.png" align="right" style="height:125px;width:125px;padding:10px;" /> I attended Bharat Jyoti Vidyalaya, is a convent school located in the Mandla city, Madhya Pradesh, India. It is one of the oldest schools in Madhya Pradesh, It is affiliated to the Madhya Pradesh Board of Secondary Education (MPBSE) .
                             </p>
                         </div>
 
@@ -149,7 +149,7 @@ $url=$_SERVER['REQUEST_URI'];
 
                     <p>✔&nbsp;<strong>Final Score</strong>&nbsp;: 80%</p>
 
-                    <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="" target="_blank">10th Marksheet</a>,&nbsp;</p>
+                    <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="https://drive.google.com/open?id=1dTTedsit4dr48vTcozLG4Y3_CQVjFHxk" target="_blank">10th Marksheet</a>,&nbsp;</p>
 
                     <br>
                     <br>
@@ -163,4 +163,4 @@ $url=$_SERVER['REQUEST_URI'];
 
     </div>
 
-    <?php include '../../footer.php'; ?>
+    <?php require '../../footer.php';

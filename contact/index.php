@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
-       $title='Pt. Prashant Triapthi :: Contacts';
-       $nav=6;
-       include '../header.php';
+<?php
+
+       $title = 'Pt. Prashant Triapthi :: Contacts';
+       $nav = 6;
+       require '../header.php';
 ?>
     <div class="container">
         <div class="row">
@@ -13,25 +13,25 @@ $url=$_SERVER['REQUEST_URI'];
                     <div class="panel-body" style="padding:50px;">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
-								<p class="title1">Ping me Quickly</p>
-								<br>
-								<p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="gmail.com">pt*******@gmail.com</a></p>
-								<br>
-								<p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84#######45"> +91-84#######45</a></p>
-							</div>
-						</div>
+                                <p class="title1">Ping me Quickly</p>
+                                <br>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="mailto:ptprashanttripathi@outlook.com">ptprashanttripathi@outlook.com</a></p>
+                                <br>
+                                <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84********"> +91-84********</a></p>
+                            </div>
+                        </div>
                         <hr>
-						
-						<div class="row">
+                        
+                        <div class="row">
                             <div class="col-xs-12 col-sm-6">
-							    <p class="title1">Find Me on Web</p>
-								<br>
+                                <p class="title1">Find Me on Web</p>
+                                <br>
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-twitter-box"></i>&nbsp;Twitter :
                                     <a href="https://twitter.com/PtPrashant09"> @PtPrashant09</a></p>
                                 <br>
-								
+                                
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-github-box"></i>&nbsp;GitHub :
-                                    <a href="https://github.com/Pt-Prashant-Tripathi"> @Pt-Prashant-Triapthi</a></p>
+                                    <a href="https://github.com/ptprashanttripathi"> @ptprashanttripathi</a></p>
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-facebook-box"></i>&nbsp;Facebook :
@@ -47,12 +47,12 @@ $url=$_SERVER['REQUEST_URI'];
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-quicktime"></i>&nbsp;Quora :
-                                    <a href="https://www.quora.com/profile/Pt-Prashant-Tripathi">PtPrashantTriapthi</a></p>
+                                    <a href="https://www.quora.com/profile/ptprashanttripathi">PtPrashantTriapthi</a></p>
                                 <br>
                             </div>
                         </div>
-						<hr>
-						
+                        <hr>
+                        
                         <p class="title1">Visit Me</p>
                         <br>
                         <div class="row">
@@ -98,4 +98,4 @@ $url=$_SERVER['REQUEST_URI'];
 
         </div>
     </div>
-    <?php include '../footer.php' ?>
+    <?php require '../footer.php';

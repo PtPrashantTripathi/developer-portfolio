@@ -1,0 +1,56 @@
+# Workflow for deploying static content to GitHub Pages
+
+name: pages-build-deployment
+
+on:
+  # Trigger this workflow on pushes to the 'main' branch, but only when changes are made in the 'dist' folder
+  push:
+    branches: ["main"]
+    paths:
+      - 'build/**'
+
+  # Allow this workflow to be triggered manually from the Actions tab
+  workflow_dispatch:
+
+# Set permissions for the GITHUB_TOKEN to enable reading repository content and deploying to GitHub Pages
+permissions:
+  contents: read  # Read access to the repository content
+  pages: write    # Write access to GitHub Pages for deployment
+  id-token: write # Generate an ID token required for deploying to GitHub Pages
+
+# Configure concurrency to ensure only one deployment runs at a time; do not cancel in-progress deployments
+concurrency:
+  group: "pages"  # Use the "pages" group for deployments to GitHub Pages
+  cancel-in-progress: false  # Allow ongoing deployments to finish without interruption
+
+jobs:
+  # Define a single deployment job for deploying the site to GitHub Pages
+  deploy:
+    # Set environment details for the deployment
+    environment:
+      name: github-pages  # The environment name to deploy to
+      url: ${{ steps.deployment.outputs.page_url }}  # URL of the deployed GitHub Pages site
+
+    # Use the latest Ubuntu runner for the deployment
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository to access the files for deployment
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Step 2: Setup GitHub Pages configuration for the deployment
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Step 3: Upload the content of the 'dist' folder as an artifact for deployment
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './build/'  # Path to the folder containing static content to deploy
+
+      # Step 4: Deploy the uploaded artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

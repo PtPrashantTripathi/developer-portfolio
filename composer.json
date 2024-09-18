@@ -1,0 +1,20 @@
+{
+    "name": "ptprashanttripathi/developer-portfolio",
+    "description": "My personal blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "PtPrashantTripathi",
+            "email": "ptprashanttripathi@outlook.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+        "server": "php -S localhost:8000 -t .",
+        "format": "phpcbf --standard=PSR12 .",
+        "build": "wget -P build/ -nH --html-extension -r localhost:8000 -d"
+    }
+}

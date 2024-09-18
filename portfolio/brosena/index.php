@@ -1,8 +1,8 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
-       $title='Pt. Prashant Triapthi :: Brosena';
-       $nav=3;
-       include '../../header.php';
+<?php
+
+       $title = 'Pt. Prashant Triapthi :: Brosena';
+       $nav = 3;
+       require '../../header.php';
 ?>
 
     <div class="container">
@@ -11,14 +11,14 @@ $url=$_SERVER['REQUEST_URI'];
 
             <div class="col-xs-12 ">
                 <div class="panel panel-primary">
-                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="/ portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                    <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                     <div class="panel-body" style="padding:50px;">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
                                 <p class="title1">Brosena </p>
                                 <p class="title2">It is a fully dyanmic Social Networking website. </p>
-								<p class="title2">This website was developed by me on aug 2017. </p>
-								<p class="title2">Now, my team is resposible for maintenance of this website.</p>
+                                <p class="title2">This website was developed by me on aug 2017. </p>
+                                <p class="title2">Now, my team is resposible for maintenance of this website.</p>
                                 <p class="title2">It is Fully responsive and dyanmic .</p>
 
                                 <p>To visit the website. Click here <a href="http://brosena.ga" style="color:blue;" target="_blank">http://brosena.ga</a></p>
@@ -26,7 +26,7 @@ $url=$_SERVER['REQUEST_URI'];
                             </div>
 
                             <div class="col-xs-12 col-sm-6">
-                                <img src="/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
+                                <img src="../../assets/image/brosena.jpg" class="img img-thumbnail img-responsive" style="height:200px;width:300px">
                             </div>
 
                         </div>
@@ -71,4 +71,4 @@ $url=$_SERVER['REQUEST_URI'];
         </div>
     </div>
 
-    <?php include '../../footer.php' ;?>
+    <?php require '../../footer.php' ;

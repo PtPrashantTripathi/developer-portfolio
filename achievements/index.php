@@ -1,9 +1,9 @@
-<?php 
-$url=$_SERVER['REQUEST_URI'];
+<?php
 
-       $title='Pt. Prashant Triapthi :: Achievements' ;
-       $nav=5;
-       include '../header.php';
+
+       $title = 'Pt. Prashant Triapthi :: Achievements' ;
+       $nav = 5;
+       require '../header.php';
 ?>
 
     <div class="container">
@@ -22,22 +22,22 @@ $url=$_SERVER['REQUEST_URI'];
 
                         <hr>
 
-                        <p class="title2"><img src="/image/sololearn-html.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">HTML Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="../assets/image/sololearn-html.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">HTML Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1014-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-css.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">CSS Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="../assets/image/sololearn-css.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">CSS Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1023-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-js.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">JavaScript Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="../assets/image/sololearn-js.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">JavaScript Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1024-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
                         <hr>
-                        <p class="title2"><img src="/image/sololearn-php.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">PHP Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
+                        <p class="title2"><img src="../assets/image/sololearn-php.png" style="height:50px;width:50px;" align="right" /><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;"<b style="color:#F44336">PHP Fundamentals</b> by <b style="color:#F44336">SoloLearn</b>.
                             <br> Certificate earned on 29 April,2017". ( <a href="https://www.sololearn.com/Certificate/1059-4614950/pdf/?mode=download" target="_blank" style="color:blue">Click here</a> for proof. )
                             <br>
                         </p>
@@ -50,7 +50,7 @@ $url=$_SERVER['REQUEST_URI'];
                             <hr width="30%" style="margin-top:0">
                         </center>
 
-                        <p class="title2"><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;<span style="color:#F44336">Student Editor</span> at <b>Department of Computer Science & Engineering</b> Newsletter Team of <span style="color:#F44336">"CLICK : Vol-8,Issue-3"</span> publiesed on Feb 2018. ( <a href="" target="_blank" style="color:blue">Click here</a> for proof. )
+                        <p class="title2"><i class="mdi mdi-star" style="color:#F44336"></i>&nbsp;&nbsp;<span style="color:#F44336">Student Editor</span> at <b>Department of Computer Science & Engineering</b> Newsletter Team of <span style="color:#F44336">"CLICK : Vol-8,Issue-3"</span> publiesed on Feb 2018. 
                             <br>
                         </p>
                         <hr>
@@ -62,4 +62,4 @@ $url=$_SERVER['REQUEST_URI'];
 
         </div>
     </div>
-    <?php include '../footer.php' ?>
+    <?php require '../footer.php';
