@@ -11,22 +11,55 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+
+function file_path_prefix($base_dir, $file_path) {
+    // Ensure both base_dir and file_path do not have trailing slashes
+    $base_dir = rtrim($base_dir, '/');
+    $file_path = rtrim($file_path, '/');
+
+    // Remove the base directory from the file path
+    $relative_path = str_replace($base_dir, '', $file_path);
+
+    // If the relative path is empty, the file is in the base directory
+    if (empty($relative_path)) {
+        return './';
+    }
+
+    // Count how many directories deep the file path is from the base directory
+    $depth = substr_count($relative_path, '/');
+
+    // Assume paths ending with a file extension are files
+    if (preg_match('/\.\w+$/', $file_path)) {
+        // Reduce the depth by 1 for files, since they are not directories
+        $depth -= 1;
+    }
+
+    // Generate the correct number of "../" based on the depth
+    $prefix = str_repeat('../', $depth);
+
+    return $prefix;
+}
+
+$base_dir = '/developer-portfolio';
+$file_path = $_SERVER['REQUEST_URI'];
+$prefix = file_path_prefix($base_dir, $file_path);
 ?>
-<script>console.log('<?php echo $url; ?>')</script>
 
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            <?php echo $title ?>
-        </title>
-        <link rel="shortcut icon" href="assets/image/pandit.png">
-        
-        <meta name="title" content="<?php echo $title; ?>" />
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+<?php echo $title ?>
+</title>
+<link rel="shortcut icon" href="<?php echo $prefix;?>assets/image/pandit.png">
+
+<meta name="title" content="<?php echo $title; ?>" />
 <meta name="description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  " />
 <meta name="keywords" content="Pt. Prashant Tripathi , Prashant Triapthi ,Pandit, Prashant Tripathi , St. Aloysius institute of technology , web developer, software engineer, Astrology, Personal website" />
 <meta name="author" content="Pt. Prashant Tripathi" />
@@ -40,7 +73,7 @@ if (session_status() === PHP_SESSION_NONE) {
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Pt. Prashant Tripathi">
 <meta property="og:url" content="https://ptprashanttripathi.github.io/developer-portfolio">
-<meta property="og:image" content="assets/image/ptprashanttripathi.jpg">
+<meta property="og:image" content="<?php echo $prefix;?>assets/image/pandit.png">
 <meta property="og:site_name" content="Prashanttriapthi.ga" />
 <meta property="og:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
 <meta property="profile:gender" content="male">
@@ -54,16 +87,16 @@ if (session_status() === PHP_SESSION_NONE) {
 <meta name="twitter:site" content="http://ptprashanttripathi.github.io/developer-portfolio">
 <meta name="twitter:title" content="<?php echo $title; ?>">
 <meta name="twitter:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
-<meta name="twitter:image" content="assets/image/ptprashanttripathi.jpg">
+<meta name="twitter:image" content="<?php echo $prefix;?>assets/image/pandit.png">
 <meta name="twitter:image:alt" content="P.A.N.D.I.T.">
 
-            <link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
-            <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-            <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-            <link href="assets/css/bootstrap-material-design.min.css" rel="stylesheet">
-            <link href="assets/css/main.css" rel="stylesheet">
-            <script src="assets/js/jquery.min.js"></script>
-            <link href="assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+            <link href="<?php echo $prefix;?>assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+            <link href="<?php echo $prefix;?>assets/css/bootstrap.min.css" rel="stylesheet">
+            <link href="<?php echo $prefix;?>assets/css/bootstrap-theme.min.css" rel="stylesheet">
+            <link href="<?php echo $prefix;?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+            <link href="<?php echo $prefix;?>assets/css/main.css" rel="stylesheet">
+            <script src="<?php echo $prefix;?>assets/js/jquery.min.js"></script>
+            <link href="<?php echo $prefix;?>assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
             <script type="application/ld+json">
                 {
                   "@context": "http://schema.org",
@@ -105,7 +138,7 @@ if (session_status() === PHP_SESSION_NONE) {
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="\">Pt. Prashant Triapthi</a>
+                                <a class="navbar-brand" href="<?php echo $prefix;?>">Pt. Prashant Triapthi</a>
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -113,17 +146,17 @@ if (session_status() === PHP_SESSION_NONE) {
                                 <ul class="nav navbar-nav navbar-right">
                                     <li <?php if ($nav == 1) {
                                         echo 'class="active"';
-                                        }?> ><a href=""><i class="mdi mdi-home"></i>&nbsp;Home<span class="sr-only">(current)</span></a></li>
+                                        }?> ><a href="<?php echo $prefix;?>"><i class="mdi mdi-home"></i>&nbsp;Home<span class="sr-only">(current)</span></a></li>
                                     <li <?php if ($nav == 2) {
                                         echo 'class="active"';
-                                        }?> ><a href="aboutme"><i class="mdi mdi-account-circle"></i>&nbsp;About me</a></li>
+                                        }?> ><a href="<?php echo $prefix;?>aboutme"><i class="mdi mdi-account-circle"></i>&nbsp;About me</a></li>
                                     <li class="dropdown <?php if ($nav == 3) {
                                         echo 'active';
                                                         }?>">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-laptop-mac"></i>&nbsp;Portfolio<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="portfolio">Significant Projects</a></li>
-                                            <li><a href="portfolio/#technical">Technical Skills</a></li>
+                                            <li><a href="<?php echo $prefix;?>portfolio">Significant Projects</a></li>
+                                            <li><a href="<?php echo $prefix;?>portfolio/#technical">Technical Skills</a></li>
 
                                         </ul>
                                     </li>
@@ -133,17 +166,17 @@ if (session_status() === PHP_SESSION_NONE) {
                                                         }?>">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-school"></i>&nbsp;Career<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="career/academic">Academic Career</a></li>
+                                            <li><a href="<?php echo $prefix;?>career/academic">Academic Career</a></li>
                                             <!--li><a href="career/professional">Professional Career</a></li-->
 
                                         </ul>
                                     </li>
                                     <li <?php if ($nav == 5) {
                                         echo 'class="active"';
-                                        }?> ><a href="achievements"><i class="mdi mdi-certificate"></i>&nbsp;Achievements</a></li>
+                                        }?> ><a href="<?php echo $prefix;?>achievements"><i class="mdi mdi-certificate"></i>&nbsp;Achievements</a></li>
                                     <li <?php if ($nav == 6) {
                                         echo 'class="active"';
-                                        }?> ><a href="contact"><i class="mdi mdi-contact-mail"></i>&nbsp;Contact</a></li>
+                                        }?> ><a href="<?php echo $prefix;?>contact"><i class="mdi mdi-contact-mail"></i>&nbsp;Contact</a></li>
 
                                 </ul>
 

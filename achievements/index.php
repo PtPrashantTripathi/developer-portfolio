@@ -1,5 +1,5 @@
 <?php
-$url = $_SERVER['REQUEST_URI'];
+
 
        $title = 'Pt. Prashant Triapthi :: Achievements' ;
        $nav = 5;

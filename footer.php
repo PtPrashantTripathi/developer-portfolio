@@ -1,3 +1,10 @@
+<?php
+//intialize $nav and $sidemenu if they are not initialize
+if (!isset($prefix)) {
+    $prefix = './';
+}
+
+?>
 <footer class="page-footer" style="background:#212121;">
     <div class="container">
         <div class="row">
@@ -20,10 +27,10 @@
 
 <!--essential javascript for website-->
 
-<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/material.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="<?php echo $prefix;?>assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="<?php echo $prefix;?>assets/js/bootstrap.min.js"></script>
+<script src="<?php echo $prefix;?>assets/js/material.min.js"></script>
+<script src="<?php echo $prefix;?>assets/js/main.js"></script>
 </body>
 
 </html>

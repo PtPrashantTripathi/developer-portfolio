@@ -1,5 +1,5 @@
 <?php
-$url = $_SERVER['REQUEST_URI'];
+
        $title = 'Pt. Prashant Triapthi :: Brosena';
        $nav = 3;
        include '../../header.php';

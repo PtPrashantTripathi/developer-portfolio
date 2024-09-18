@@ -1,6 +1,6 @@
 <?php
 
-$url = $_SERVER['REQUEST_URI'];
+
 
        $title = 'Pt. Prashant Triapthi :: ERROR-404';
        //$nav=2;

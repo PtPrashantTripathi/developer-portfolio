@@ -1,5 +1,5 @@
 <?php
-$url = $_SERVER['REQUEST_URI'];
+
        $title = 'Pt. Prashant Triapthi :: Contacts';
        $nav = 6;
        include '../header.php';
