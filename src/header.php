@@ -77,21 +77,17 @@ $prefix = file_path_prefix($base_dir, $file_path);
     <meta name="twitter:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
     <meta name="twitter:image" content="<?php echo $prefix; ?>assets/image/pandit.png">
     <meta name="twitter:image:alt" content="P.A.N.D.I.T.">
-    <!-- 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="https://raw.githubusercontent.com/PtPrashantTripathi/developer-portfolio/03ca868e8e195b90a676ad04807a29eefb363115/css/bootstrap-material-design.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" /> 
--->
-    <link href="<?php echo $prefix; ?>assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
-    <link href="<?php echo $prefix; ?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo $prefix; ?>assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="<?php echo $prefix; ?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
     <link href="<?php echo $prefix; ?>assets/css/main.css" rel="stylesheet">
-    <script src="<?php echo $prefix; ?>assets/js/jquery.min.js"></script>
-    <link href="<?php echo $prefix; ?>assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/> -->
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -106,7 +102,7 @@ $prefix = file_path_prefix($base_dir, $file_path);
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113286359-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4NJD8J3MD"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -114,7 +110,7 @@ $prefix = file_path_prefix($base_dir, $file_path);
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-        gtag('config', 'UA-113286359-1');
+        gtag('config', 'G-C4NJD8J3MD');
     </script>
 </head>
 

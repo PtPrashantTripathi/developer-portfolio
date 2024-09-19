@@ -54,7 +54,7 @@ if (!isset($prefix)) {
 <script src="https://unpkg.com/bootstrap.min.js@3.3.5/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" ></script>
 -->
-
+<script src="<?php echo $prefix; ?>assets/js/jquery.min.js"></script>
 <script src="<?php echo $prefix; ?>assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="<?php echo $prefix; ?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo $prefix; ?>assets/js/material.min.js"></script>
