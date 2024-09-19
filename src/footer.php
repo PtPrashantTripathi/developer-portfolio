@@ -12,9 +12,6 @@ if (!isset($prefix)) {
                 <br>
                 <p class="title1">Developer : Pt. Prashant Triapthi </p>
                 <p class="title2">Credits :
-                    <a href="http://getbootstrap.com/" style="color:#fff">Bootstrap</a>,
-                    <a href="https://jquery.com" style="color:#fff">jQuery</a>,
-                    <a href="http://fezvrasta.github.io/bootstrap-material-design/" style="color:#fff">Material Design</a>,
                     <a href="https://Google.com" style="color:#fff">Google</a>,
                     <a href="https://quora.com" style="color:#fff">Quora</a>,
                     <a href="https://stackoverflow.com" style="color:#fff">Stack Overflow</a>,
