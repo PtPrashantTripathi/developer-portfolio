@@ -87,6 +87,22 @@ require '../header.php';
             </div>
         </a>
         <!--card for single project end-->
+        <!--card for single project-->
+        <a href="<?php echo $prefix; ?>portfolio/shreeganesh">
+            <div class="col-xs-12 col-sm-3">
+                <div class="panel panel-primary  hoverable">
+                    <div class="panel-heading panel-heading-custom card-photo">
+                        <img src="../assets/image/ganesha.jpeg" />
+                    </div>
+                    <div class="panel-body">
+                        <p class="title1">Shree Ganesh</p>
+                        <p class="title3">Android app for The Astrology</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!--card for single project end-->
+
         <!--------------------Technical Skill Start-------------------------->
         <div class="col-xs-12" id="technical">
             <div class="panel panel-primary">

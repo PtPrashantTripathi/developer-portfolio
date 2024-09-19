@@ -28,4 +28,4 @@ Alter ErrorPages*/
     </div>
 </div>
 <!--footer start-->
-<?php require 'footer.php'; ?>
+<?php require '../footer.php'; ?>
