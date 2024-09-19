@@ -49,14 +49,9 @@ if (!isset($prefix)) {
 </footer>
 
 <!--essential javascript for website-->
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.js"></script>
-<script src="https://unpkg.com/bootstrap.min.js@3.3.5/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" ></script>
--->
-<script src="<?php echo $prefix; ?>assets/js/jquery.min.js"></script>
-<script src="<?php echo $prefix; ?>assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="<?php echo $prefix; ?>assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.7/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="<?php echo $prefix; ?>assets/js/material.min.js"></script>
 <script src="<?php echo $prefix; ?>assets/js/main.js"></script>
 </body>

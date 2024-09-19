@@ -80,14 +80,10 @@ $prefix = file_path_prefix($base_dir, $file_path);
     <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $prefix; ?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
     <link href="<?php echo $prefix; ?>assets/css/main.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/> -->
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
