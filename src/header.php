@@ -4,7 +4,7 @@ if (!isset($nav)) {
     $nav = 0;
 }
 if (!isset($title)) {
-    $title = "Header";
+    $title = 'Pt. Prashant Triapthi :: Home';
 }
 date_default_timezone_set('Asia/Calcutta');
 error_reporting(E_ALL);
@@ -77,13 +77,21 @@ $prefix = file_path_prefix($base_dir, $file_path);
     <meta name="twitter:description" content="It is personal website of me (Pt. Prashant Triapthi) for showing my skills and works an to build my online presence.I am a student of 2nd year Student of B.tech (CSE) at St. Aloysius Institute Of Technology, Jabalpur (Madhya Pradesh), India.  ">
     <meta name="twitter:image" content="<?php echo $prefix; ?>assets/image/pandit.png">
     <meta name="twitter:image:alt" content="P.A.N.D.I.T.">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="https://raw.githubusercontent.com/PtPrashantTripathi/developer-portfolio/03ca868e8e195b90a676ad04807a29eefb363115/css/bootstrap-material-design.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.2/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="https://raw.githubusercontent.com/PtPrashantTripathi/developer-portfolio/03ca868e8e195b90a676ad04807a29eefb363115/css/bootstrap-material-design.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.5.54/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" /> 
+-->
+    <link href="<?php echo $prefix; ?>assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="<?php echo $prefix; ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $prefix; ?>assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="<?php echo $prefix; ?>assets/css/bootstrap-material-design.min.css" rel="stylesheet">
     <link href="<?php echo $prefix; ?>assets/css/main.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="<?php echo $prefix; ?>assets/js/jquery.min.js"></script>
+    <link href="<?php echo $prefix; ?>assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -131,36 +139,24 @@ $prefix = file_path_prefix($base_dir, $file_path);
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li <?php if ($nav == 1) {
-                                            echo 'class="active"';
-                                        } ?>><a href="<?php echo $prefix; ?>"><i class="mdi mdi-home"></i>&nbsp;Home<span class="sr-only">(current)</span></a></li>
-                                    <li <?php if ($nav == 2) {
-                                            echo 'class="active"';
-                                        } ?>><a href="<?php echo $prefix; ?>aboutme"><i class="mdi mdi-account-circle"></i>&nbsp;About me</a></li>
-                                    <li class="dropdown <?php if ($nav == 3) {
-                                                            echo 'active';
-                                                        } ?>">
+                                    <li <?php if ($nav == 1) echo 'class="active"'; ?>><a href="<?php echo $prefix; ?>"><i class="mdi mdi-home"></i>&nbsp;Home<span class="sr-only">(current)</span></a></li>
+                                    <li <?php if ($nav == 2) echo 'class="active"'; ?>><a href="<?php echo $prefix; ?>/aboutme"><i class="mdi mdi-account-circle"></i>&nbsp;About me</a></li>
+                                    <li class="dropdown <?php if ($nav == 3) echo 'active'; ?>">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-laptop-mac"></i>&nbsp;Portfolio<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="<?php echo $prefix; ?>portfolio">Significant Projects</a></li>
-                                            <li><a href="<?php echo $prefix; ?>portfolio/#technical">Technical Skills</a></li>
+                                            <li><a href="<?php echo $prefix; ?>/portfolio">Significant Projects</a></li>
+                                            <li><a href="<?php echo $prefix; ?>/portfolio/#technical">Technical Skills</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown <?php if ($nav == 4) {
-                                                            echo 'active';
-                                                        } ?>">
+                                    <li class="dropdown <?php if ($nav == 4) echo 'active'; ?>">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-school"></i>&nbsp;Career<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="<?php echo $prefix; ?>career/academic">Academic Career</a></li>
-                                            <li><a href="<?php echo $prefix; ?>career/professional">Professional Career</a></li>
+                                            <li><a href="<?php echo $prefix; ?>/career/academic">Academic Career</a></li>
+                                            <li><a href="<?php echo $prefix; ?>/career/professional">Professional Career</a></li>
                                         </ul>
                                     </li>
-                                    <li <?php if ($nav == 5) {
-                                            echo 'class="active"';
-                                        } ?>><a href="<?php echo $prefix; ?>achievements"><i class="mdi mdi-certificate"></i>&nbsp;Achievements</a></li>
-                                    <li <?php if ($nav == 6) {
-                                            echo 'class="active"';
-                                        } ?>><a href="<?php echo $prefix; ?>contact"><i class="mdi mdi-contact-mail"></i>&nbsp;Contact</a></li>
+                                    <li <?php if ($nav == 5) echo 'class="active"'; ?>><a href="<?php echo $prefix; ?>/achievements"><i class="mdi mdi-certificate"></i>&nbsp;Achievements</a></li>
+                                    <li <?php if ($nav == 6) echo 'class="active"'; ?>><a href="<?php echo $prefix; ?>/contact"><i class="mdi mdi-contact-mail"></i>&nbsp;Contact</a></li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->

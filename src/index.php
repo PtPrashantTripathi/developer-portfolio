@@ -1,5 +1,4 @@
 <?php
-
 $title = 'Pt. Prashant Triapthi :: Home';
 $nav = 1;
 require 'header.php';
@@ -76,7 +75,7 @@ require 'header.php';
         <div class="col-xs-12 col-sm-3 lib">
             <div class="panel panel-default">
                 <div class="panel-body lib_body">
-                    <a href="/PrashantTripathi_InternshalaResume.pdf" download>
+                    <a href="/Prashant_Tripathi_Resume.pdf" download>
                         <center> <span class="ca-icon"><i class="mdi mdi-attachment"></i></span></center>
                         <div class="ca-content">
                             <h2 class="ca-main">Resume</h2>
