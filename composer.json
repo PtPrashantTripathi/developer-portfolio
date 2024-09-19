@@ -1,10 +1,18 @@
 {
     "name": "ptprashanttripathi/developer-portfolio",
+<<<<<<< HEAD
     "description": "My personal Portfolio Blog",
     "type": "project",
     "authors": [
         {
             "name": "ptprashanttripathi",
+=======
+    "description": "My personal blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "PtPrashantTripathi",
+>>>>>>> main
             "email": "ptprashanttripathi@outlook.com"
         }
     ],
@@ -13,8 +21,16 @@
         "squizlabs/php_codesniffer": "^3.10"
     },
     "scripts": {
+<<<<<<< HEAD
         "server": "php -S localhost:8000 -t ./src",
         "format": "phpcbf --standard=PSR12 ./src",
         "build": "wget -P build/ -nH --html-extension -r localhost:8000 -d"
     }
 }
+=======
+        "server": "php -S localhost:8000 -t .",
+        "format": "phpcbf --standard=PSR12 .",
+        "build": "wget -P build/ -nH --html-extension -r localhost:8000 -d"
+    }
+}
+>>>>>>> main
