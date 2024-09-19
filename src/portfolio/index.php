@@ -13,7 +13,7 @@ require '../header.php';
     </div>
     <div class="row">
         <!--card for single project-->
-        <a href="./brosena">
+        <a href="<?php echo $prefix; ?>portfolio/brosena">
             <div class="col-xs-12 col-sm-3">
                 <div class="panel panel-primary  hoverable">
                     <div class="panel-heading panel-heading-custom card-photo">
@@ -28,7 +28,7 @@ require '../header.php';
         </a>
         <!--card for single project end-->
         <!--card for single project-->
-        <a href="./personalweb">
+        <a href="<?php echo $prefix; ?>portfolio/personalweb">
             <div class="col-xs-12 col-sm-3">
                 <div class="panel panel-primary  hoverable">
                     <div class="panel-heading panel-heading-custom card-photo">
@@ -43,7 +43,7 @@ require '../header.php';
         </a>
         <!--card for single project end-->
         <!--card for single project-->
-        <a href="./html_tutorial">
+        <a href="<?php echo $prefix; ?>portfolio/html_tutorial">
             <div class="col-xs-12 col-sm-3">
                 <div class="panel panel-primary  hoverable">
                     <div class="panel-heading panel-heading-custom card-photo">
@@ -58,7 +58,7 @@ require '../header.php';
         </a>
         <!--card for single project end-->
         <!--card for single project-->
-        <a href="./diy_editer">
+        <a href="<?php echo $prefix; ?>portfolio/diy_editer">
             <div class="col-xs-12 col-sm-3">
                 <div class="panel panel-primary  hoverable">
                     <div class="panel-heading panel-heading-custom card-photo">
@@ -73,7 +73,7 @@ require '../header.php';
         </a>
         <!--card for single project end-->
         <!--card for single project-->
-        <a href="./smartresistancecalculator">
+        <a href="<?php echo $prefix; ?>portfolio/smartresistancecalculator">
             <div class="col-xs-12 col-sm-3">
                 <div class="panel panel-primary  hoverable">
                     <div class="panel-heading panel-heading-custom card-photo">
@@ -103,23 +103,23 @@ require '../header.php';
                         <!--Favorite Tools start-->
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Favorite Tools</p>
-                            <p><b>Operating System</b>&nbsp;: Linux (Ubuntu 14.04 LTS)&nbsp;
+                            <p><b>Operating System</b> : Linux (Ubuntu 14.04 LTS)
                                 <br />
-                                <b>IDE&nbsp;</b>: Codeblocks, eclipse
+                                <b>IDE </b>: Codeblocks, eclipse
                                 <br />
-                                <b>Text Editor&nbsp;</b>: Notepade++, Sublime Text &nbsp;
+                                <b>Text Editor </b>: Notepade++, Sublime Text
                                 <br />
-                                <b>Other&nbsp;</b>: Adobe Photoshop CC,CyberLink PowerDirector,Coral Draw
+                                <b>Other </b>: Adobe Photoshop CC,CyberLink PowerDirector,Coral Draw
                             </p>
                         </div>
                         <!--area start-->
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Programming Languages</p>
-                            <p><b>Proficient&nbsp;</b>: C,Javascript,PHP,HTML5,CSS3
+                            <p><b>Proficient </b>: C,Javascript,PHP,HTML5,CSS3
                                 <br />
-                                <b>Good Knowledge&nbsp;</b>: C++,Python,SQL
+                                <b>Good Knowledge </b>: C++,Python,SQL
                                 <br />
-                                <b>Still a lot to Learn&nbsp;</b>: Java,Ruby &nbsp;
+                                <b>Still a lot to Learn </b>: Java,Ruby
                                 <br />
                                 <em>Programming Language is just a tool, Logic is main art.</em>
                             </p>

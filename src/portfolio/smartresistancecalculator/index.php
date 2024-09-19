@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Smart Resistance Calculator ';
 $nav = 3;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Smart Resistance Calculator <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Smart Resistance Calculator <a href="<?php echo $prefix; ?>portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                 <div class="panel-body" style="padding:50px;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -30,10 +33,10 @@ require '../../header.php';
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;Completely Offline Resister value Calculator.</p>
-                            <p>✔&nbsp;Responsive Interface.</p>
-                            <p>✔&nbsp;Includes Complete guide.</p>
-                            <p>✔&nbsp;Easy to use.</p>
+                            <p>✔ Completely Offline Resister value Calculator.</p>
+                            <p>✔ Responsive Interface.</p>
+                            <p>✔ Includes Complete guide.</p>
+                            <p>✔ Easy to use.</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Technology use</p>
@@ -41,12 +44,12 @@ require '../../header.php';
                             <br>
                             <!--quick fact start-->
                             <!--quick fact start-->
-                            <p>✔&nbsp;Android SDK.</p>
-                            <p>✔&nbsp;HTML5,CSS3,jQuery & bootstrap for front-end development.</p>
-                            <p>✔&nbsp;Java for backend.</p>
-                            <p>✔&nbsp;Apache server for testing and development.</p>
-                            <p>✔&nbsp;Git for version control.</p>
-                            <p>✔&nbsp;Notepade++ text for coding.</p>
+                            <p>✔ Android SDK.</p>
+                            <p>✔ HTML5,CSS3,jQuery & bootstrap for front-end development.</p>
+                            <p>✔ Java for backend.</p>
+                            <p>✔ Apache server for testing and development.</p>
+                            <p>✔ Git for version control.</p>
+                            <p>✔ Notepade++ text for coding.</p>
                         </div>
                     </div>
                 </div>

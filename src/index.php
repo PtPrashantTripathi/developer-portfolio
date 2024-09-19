@@ -2,6 +2,9 @@
 $title = 'Pt. Prashant Triapthi :: Home';
 $nav = 1;
 require 'header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 
 <!--code for wallpaper start-->
@@ -10,7 +13,7 @@ require 'header.php';
         <div class="col-xs-12 main_bg">
             <br>
             <div class="hidden-xs"><br><br><br><br></div>
-            <img id="ptprashanttripathi" src="./assets/image/pandit.png" alt="Pt. Prashant Tripathi"
+            <img id="ptprashanttripathi" src="<?php echo $prefix; ?>assets/image/pandit.png" alt="Pt. Prashant Tripathi"
                 class="img img-circle img-thumbnail img-responsive" height="120px" width="120px" />
             <br><br>
             <h2>Hi. I'm <br>Pt. Prashant Tripathi</h2>
@@ -33,7 +36,7 @@ require 'header.php';
         <div class="col-xs-12 col-sm-3 lib">
             <div class="panel panel-default">
                 <div class="panel-body lib_body">
-                    <a href="aboutme/">
+                    <a href="<?php echo $prefix; ?>aboutme/">
                         <center> <span class="ca-icon"><i class="mdi mdi-account"></i></span></center>
                         <div class="ca-content">
                             <h2 class="ca-main">Know Me</h2>
@@ -61,7 +64,7 @@ require 'header.php';
         <div class="col-xs-12 col-sm-3 lib">
             <div class="panel panel-default">
                 <div class="panel-body lib_body">
-                    <a href="/contact/">
+                    <a href="<?php echo $prefix; ?>contact/">
                         <center><span class="ca-icon"><i class="mdi mdi-message-text-outline"></i></span></center>
                         <div class="ca-content">
                             <h2 class="ca-main">Contact me</h2>
@@ -75,7 +78,7 @@ require 'header.php';
         <div class="col-xs-12 col-sm-3 lib">
             <div class="panel panel-default">
                 <div class="panel-body lib_body">
-                    <a href="/Prashant_Tripathi_Resume.pdf" download>
+                    <a href="<?php echo $prefix; ?>Prashant_Tripathi_Resume.pdf" download>
                         <center> <span class="ca-icon"><i class="mdi mdi-attachment"></i></span></center>
                         <div class="ca-content">
                             <h2 class="ca-main">Resume</h2>
@@ -113,9 +116,9 @@ require 'header.php';
                         extremely enthusiastic about life,
                         am in love with my work and am always on the hunt for learning something new. You can find me on
                         LinkedIn, or email me here.
-                        Let's <a href="/contact/" style="color:#F44336;">Get in Touch!</a> To Know more about me and my
+                        Let's <a href="<?php echo $prefix; ?>contact/" style="color:#F44336;">Get in Touch!</a> To Know more about me and my
                         life read on here. Currently, I am looking for an internship.
-                        To know more about me <a href="/aboutme/" style="color:blue">click here.</a>
+                        To know more about me <a href="<?php echo $prefix; ?>aboutme/" style="color:blue">click here.</a>
                     </p>
                     <hr>
 
@@ -131,9 +134,9 @@ require 'header.php';
                                 Madhya Pradesh, India.
                                 <br> In Computer Science & Engg. Batch of 2016-2020
                             </p>
-                            <a href="/career/academic/" class="btn btn-sm btn-danger btn-raised"
+                            <a href="<?php echo $prefix; ?>career/academic/" class="btn btn-sm btn-danger btn-raised"
                                 title="Prashant's Academic career">Learn more <i
-                                    class="mdi mdi-rocket"></i>&nbsp;&nbsp;</a>
+                                    class="mdi mdi-rocket"></i>  </a>
 
                         </div>
 
@@ -147,9 +150,9 @@ require 'header.php';
                                 <br> Currently living in the <a
                                     href="https://en.wikipedia.org/wiki/Jabalpur">Jabalpur</a>, Madhya Pradesh, India.
                             </p>
-                            <a href="aboutme/" class="btn btn-sm btn-danger btn-raised"
+                            <a href="<?php echo $prefix; ?>aboutme/" class="btn btn-sm btn-danger btn-raised"
                                 title="Prashant's Personal life">Know more <i
-                                    class="mdi mdi-rocket"></i>&nbsp;&nbsp;</a>
+                                    class="mdi mdi-rocket"></i>  </a>
 
                         </div>
 
@@ -161,9 +164,9 @@ require 'header.php';
                                 but still today I am the CFO & CEO of <a href="http://brosena.ga"> Brosena </a>
                                 <br>
                             </p>
-                            <a href="/portfolio/" class="btn btn-sm btn-danger btn-raised"
+                            <a href="<?php echo $prefix; ?>portfolio/" class="btn btn-sm btn-danger btn-raised"
                                 title="Prashant's Professional career">See more <i
-                                    class="mdi mdi-rocket"></i>&nbsp;&nbsp;</a>
+                                    class="mdi mdi-rocket"></i>  </a>
 
                         </div>
                     </div>
@@ -174,7 +177,7 @@ require 'header.php';
                     <p class="title2">Here you can see what my friends, relatives, colleagues and others have to say
                         about me.
                         <br> No testimonial to display :( Be the first one to write a testimonial for me :)
-                        <br> If you want to write a testimonial for me <a href="mailto:ptprashanttripathi@outlook.com"
+                        <br> If you want to write a testimonial for me <a href="<?php echo $prefix; ?>mailto:ptprashanttripathi@outlook.com"
                             style="color:blue">click here.</a>
                     </p>
 

@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Brosena';
 $nav = 3;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Brosena.ga <a href="<?php echo $prefix; ?>portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                 <div class="panel-body" style="padding:50px;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -30,24 +33,24 @@ require '../../header.php';
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;Creat Post.</p>
-                            <p>✔&nbsp;Uplode Photos,like,share and comment.</< /p>
-                            <p>✔&nbsp;Read and view all members post and photos</p>
-                            <p>✔&nbsp;Searching Fuction.</p>
-                            <p>✔&nbsp;View other members profile.</p>
-                            <p>✔&nbsp;Edit your profile.</p>
-                            <p>✔&nbsp;Password recovery eith mobile number verification.</p>
+                            <p>✔ Creat Post.</p>
+                            <p>✔ Uplode Photos,like,share and comment.</< /p>
+                            <p>✔ Read and view all members post and photos</p>
+                            <p>✔ Searching Fuction.</p>
+                            <p>✔ View other members profile.</p>
+                            <p>✔ Edit your profile.</p>
+                            <p>✔ Password recovery eith mobile number verification.</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Technology use</p>
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;<b style="color:#F44336">Custom Content Management system</b> using PHP and MYSQL.</p>
-                            <p>✔&nbsp;Use HTML,CSS3 and bootstrap for designing.</p>
-                            <p>✔&nbsp;PHP for backend.</p>
-                            <p>✔&nbsp;Javascript for dyanmic behaviour.</p>
-                            <p>✔&nbsp;Apache server for hosting.</p>
+                            <p>✔ <b style="color:#F44336">Custom Content Management system</b> using PHP and MYSQL.</p>
+                            <p>✔ Use HTML,CSS3 and bootstrap for designing.</p>
+                            <p>✔ PHP for backend.</p>
+                            <p>✔ Javascript for dyanmic behaviour.</p>
+                            <p>✔ Apache server for hosting.</p>
                         </div>
                     </div>
                 </div>

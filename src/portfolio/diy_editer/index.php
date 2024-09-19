@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Diy Editor';
 $nav = 3;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Summary of Diy Editor <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Summary of Diy Editor <a href="<?php echo $prefix; ?>portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                 <div class="panel-body" style="padding:50px;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -31,13 +34,13 @@ require '../../header.php';
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;Responsive Interface.</p>
-                            <p>✔&nbsp;Completely Offline.</p>
-                            <p>✔&nbsp;Cut, Copy, Paste, Delete html code .</p>
-                            <p>✔&nbsp;Open files with default apps.</p>
-                            <p>✔&nbsp;Test Code .</p>
-                            <p>✔&nbsp;Faster, better syntax highlighting</p>
-                            <p>✔&nbsp;Alert, confirm and prompt dialogs for javascript.</p>
+                            <p>✔ Responsive Interface.</p>
+                            <p>✔ Completely Offline.</p>
+                            <p>✔ Cut, Copy, Paste, Delete html code .</p>
+                            <p>✔ Open files with default apps.</p>
+                            <p>✔ Test Code .</p>
+                            <p>✔ Faster, better syntax highlighting</p>
+                            <p>✔ Alert, confirm and prompt dialogs for javascript.</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Technology use</p>
@@ -45,12 +48,12 @@ require '../../header.php';
                             <br>
                             <!--quick fact start-->
                             <!--quick fact start-->
-                            <p>✔&nbsp;Android SDK.</p>
-                            <p>✔&nbsp;HTML5,CSS3,jQuery & bootstrap for front-end development.</p>
-                            <p>✔&nbsp;Java for backend.</p>
-                            <p>✔&nbsp;Apache server for testing and development.</p>
-                            <p>✔&nbsp;Git for version control.</p>
-                            <p>✔&nbsp;Notepade++ text for coding.</p>
+                            <p>✔ Android SDK.</p>
+                            <p>✔ HTML5,CSS3,jQuery & bootstrap for front-end development.</p>
+                            <p>✔ Java for backend.</p>
+                            <p>✔ Apache server for testing and development.</p>
+                            <p>✔ Git for version control.</p>
+                            <p>✔ Notepade++ text for coding.</p>
                         </div>
                     </div>
                 </div>
@@ -58,4 +61,4 @@ require '../../header.php';
         </div>
     </div>
 </div>
-<?php require '../../footer.php';?>
+<?php require '../../footer.php'; ?>

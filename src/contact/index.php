@@ -13,9 +13,9 @@ require '../header.php';
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Ping me Quickly</p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="mailto:ptprashanttripathi@outlook.com">ptprashanttripathi@outlook.com</a></p>
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-email"></i> Email : <a href="<?php echo $prefix; ?>mailto:ptprashanttripathi@outlook.com">ptprashanttripathi@outlook.com</a></p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="tel:84********"> +91-84********</a></p>
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-cellphone-iphone"></i> Mobile : <a href="<?php echo $prefix; ?>tel:84********"> +91-84********</a></p>
                         </div>
                     </div>
                     <hr>
@@ -23,27 +23,27 @@ require '../header.php';
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Find Me on Web</p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-twitter-box"></i>&nbsp;Twitter :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-twitter-box"></i> Twitter :
                                 <a href="https://twitter.com/PtPrashant09"> @PtPrashant09</a>
                             </p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-github-box"></i>&nbsp;GitHub :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-github-box"></i> GitHub :
                                 <a href="https://github.com/ptprashanttripathi"> @ptprashanttripathi</a>
                             </p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-facebook-box"></i>&nbsp;Facebook :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-facebook-box"></i> Facebook :
                                 <a href="https://www.facebook.com/PtPrashantTripathi"> #PtPrashantTriapthi</a>
                             </p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-google-plus-box"></i>&nbsp;Google+ :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-google-plus-box"></i> Google+ :
                                 <a href="https://plus.google.com/u/0/117932919291115315316">+PtPrashantTriapthi</a>
                             </p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-linkedin-box"></i>&nbsp;LinkedIn :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-linkedin-box"></i> LinkedIn :
                                 <td><a href="https://www.linkedin.com/in/ptprashanttripathi">/ptprashanttripathi</a>
                             </p>
                             <br>
-                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-quicktime"></i>&nbsp;Quora :
+                            <p class="title2" style="font-size:16px;"><i class="mdi mdi-quicktime"></i> Quora :
                                 <a href="https://www.quora.com/profile/ptprashanttripathi">PtPrashantTriapthi</a>
                             </p>
                             <br>
@@ -56,7 +56,7 @@ require '../header.php';
                         <div class="col-xs-12 col-sm-6">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-5">
-                                    <p class="title2"><i class="mdi mdi-home"></i>&nbsp;&nbsp;Permanent Address :</p>
+                                    <p class="title2"><i class="mdi mdi-home"></i>  Permanent Address :</p>
                                 </div>
                                 <div class="col-xs-12 col-sm-7">
                                     <p class="title2">Circus Ground, Binjhiya
@@ -69,7 +69,7 @@ require '../header.php';
                         <div class="col-xs-12 col-sm-6">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-5">
-                                    <p class="title2"><i class="mdi mdi-home"></i>&nbsp;&nbsp;Hostel Address :</p>
+                                    <p class="title2"><i class="mdi mdi-home"></i>  Hostel Address :</p>
                                 </div>
                                 <div class="col-xs-12 col-sm-7">
                                     <p class="title2">Room No. 114,Boys Hostel

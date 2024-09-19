@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Shree Ganesh App by @ptprashanttripathi';
 $nav = 3;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Shree Ganesh<a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Shree Ganesh<a href="<?php echo $prefix; ?>portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                 <div class="panel-body" style="padding:50px;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -36,22 +39,22 @@ require '../../header.php';
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;First Online future consulting app.</p>
-                            <p>✔&nbsp;Responsive Interface.</p>
-                            <p>✔&nbsp;Based on Indian Astrology aka Vedic Astrology or Jyotish .</p>
-                            <p>✔&nbsp;Also includes The verious solution regarding your problem.</p>
-                            <p>✔&nbsp;It is Simple but Effective android app.</p>
+                            <p>✔ First Online future consulting app.</p>
+                            <p>✔ Responsive Interface.</p>
+                            <p>✔ Based on Indian Astrology aka Vedic Astrology or Jyotish .</p>
+                            <p>✔ Also includes The verious solution regarding your problem.</p>
+                            <p>✔ It is Simple but Effective android app.</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Technology use</p>
                             <hr width="30%" style="margin:0px">
                             <br>
-                            <p>✔&nbsp;Android SDK.</p>
-                            <p>✔&nbsp;HTML5,CSS3,jScript & PaperCss for front-end development.</p>
-                            <p>✔&nbsp;Java for backend.</p>
-                            <p>✔&nbsp;Apache server for testing and development.</p>
-                            <p>✔&nbsp;Git for version control.</p>
-                            <p>✔&nbsp;Notepade++ text for coding.</p>
+                            <p>✔ Android SDK.</p>
+                            <p>✔ HTML5,CSS3,jScript & PaperCss for front-end development.</p>
+                            <p>✔ Java for backend.</p>
+                            <p>✔ Apache server for testing and development.</p>
+                            <p>✔ Git for version control.</p>
+                            <p>✔ Notepade++ text for coding.</p>
                         </div>
                     </div>
                 </div>

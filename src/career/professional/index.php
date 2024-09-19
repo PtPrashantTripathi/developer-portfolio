@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Professional Career';
 $nav = 4;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">My Professional Career <span class="pull-right hidden-xs"><a href="/career/academic/" style="color:#fff;text-decoration:none">View my Academic Career</a></span></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">My Professional Career <span class="pull-right hidden-xs"><a href="<?php echo $prefix; ?>career/academic/" style="color:#fff;text-decoration:none">View my Academic Career</a></span></div>
             </div>
         </div>
         <!--detail of Summer Training start-->
@@ -37,10 +40,10 @@ require '../../header.php';
                 </center>
                 <br>
                 <!--quick fact for training start-->
-                <p>✔&nbsp;<strong>Organization</strong>&nbsp; :&nbsp; <a href="https://netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
-                <p>✔&nbsp;<strong>Location</strong>&nbsp;: LNIIT ,Jaipur ,India</p>
-                <p>✔&nbsp;<strong>Duration</strong>&nbsp;: 160 hrs - June, 2017 to July, 2017.</p>
-                <p>✔&nbsp;<strong>Area</strong>&nbsp;: Network Management & Ethical Hacking with Web Development</p>
+                <p>✔ <strong>Organization</strong>  :  <a href="https://netcamp.in" target="_blank" style="color:blue">Netcamp Solutions Private Limited</a></p>
+                <p>✔ <strong>Location</strong> : LNIIT ,Jaipur ,India</p>
+                <p>✔ <strong>Duration</strong> : 160 hrs - June, 2017 to July, 2017.</p>
+                <p>✔ <strong>Area</strong> : Network Management & Ethical Hacking with Web Development</p>
                 <!--quick fact for training end-->
             </div>
         </div>
@@ -148,4 +151,4 @@ require '../../header.php';
         <!--Training on Ethical Hacking  start-->
     </div>
 </div>
-<?php require '../../footer.php';?>
+<?php require '../../footer.php'; ?>

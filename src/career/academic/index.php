@@ -2,12 +2,15 @@
 $title = 'Pt. Prashant Triapthi :: Academic Career';
 $nav = 4;
 require '../../header.php';
+if (!isset($prefix)) {
+    $prefix = '';
+}
 ?>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">My Academic Career <span class="pull-right hidden-xs"><a href="/career/professional/" style="color:#fff;text-decoration:none">View my Professional Career</a></span></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">My Academic Career <span class="pull-right hidden-xs"><a href="<?php echo $prefix; ?>career/professional/" style="color:#fff;text-decoration:none">View my Professional Career</a></span></div>
             </div>
         </div>
         <!--KNIT careere Start-->
@@ -34,13 +37,13 @@ require '../../header.php';
                 </center>
                 <br>
                 <!--quick fact for College start-->
-                <p>✔&nbsp;<strong>Institute</strong>&nbsp;:&nbsp;<a href="http://saitjbp.in/" target="_blank">St. Aloysius Institute of Technology Jabalpur, Madhya Pradesh, India</a>.</p>
-                <p>✔&nbsp;<strong>Affiliation</strong>&nbsp;:&nbsp;<a href="http://rgpv.ac.in/" target="_blank">Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal,Madhya Pradesh, India</a></p>
-                <p>✔&nbsp;<strong>Degree</strong>&nbsp;: Bachelor of Technology (B.Tech)</p>
-                <p>✔&nbsp;<strong>Branch</strong>&nbsp;:&nbsp;Computer Science & Engineering</p>
-                <p>✔&nbsp;<strong>Graduation period</strong>&nbsp;: 2016 - 2020</p>
-                <p>✔&nbsp;<strong>Cumulative Marks</strong>&nbsp;: 8.23 CGPA, after 2nd Semester.</p>
-                <p>✔&nbsp;<strong>Admission Test</strong>&nbsp;: IIT-JEE 2016 (Rank xx )</p>
+                <p>✔ <strong>Institute</strong> : <a href="http://saitjbp.in/" target="_blank">St. Aloysius Institute of Technology Jabalpur, Madhya Pradesh, India</a>.</p>
+                <p>✔ <strong>Affiliation</strong> : <a href="http://rgpv.ac.in/" target="_blank">Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal,Madhya Pradesh, India</a></p>
+                <p>✔ <strong>Degree</strong> : Bachelor of Technology (B.Tech)</p>
+                <p>✔ <strong>Branch</strong> : Computer Science & Engineering</p>
+                <p>✔ <strong>Graduation period</strong> : 2016 - 2020</p>
+                <p>✔ <strong>Cumulative Marks</strong> : 8.23 CGPA, after 2nd Semester.</p>
+                <p>✔ <strong>Admission Test</strong> : IIT-JEE 2016 (Rank xx )</p>
                 <!--quick fact for college end-->
             </div>
         </div>
@@ -67,12 +70,12 @@ require '../../header.php';
                 </div>
                 <br>
                 <!--quick fact for school start-->
-                <p>✔&nbsp;<strong>School</strong>&nbsp;:&nbsp;<a href="http://www.bjvmandla.com/" target="_blank">Bharat Jyoti Vidyalaya , Mandla</a></p>
-                <p>✔&nbsp;<strong>Affiliation</strong>&nbsp;:&nbsp;<a href="http://mpbse.nic.in/" target="_blank">Madhya Pradesh Board of Secondary Education (MPBSE)</a></p>
-                <p>✔&nbsp;<strong>Stream</strong>&nbsp;: PCM<i>+</i>B</p>
-                <p>✔&nbsp;<strong>Subjects</strong>&nbsp;: Physics, Chemistry, Mathematics, Hindi , English And Biology Addinional </p>
-                <p>✔&nbsp;<strong>Final Score</strong>&nbsp;: 82%</p>
-                <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="https://drive.google.com/open?id=12kbWLs4KhgZ2Sq3wbiB2_rxrnNYOYzPn" target="_blank">12th Marksheet</a>,&nbsp;</p>
+                <p>✔ <strong>School</strong> : <a href="http://www.bjvmandla.com/" target="_blank">Bharat Jyoti Vidyalaya , Mandla</a></p>
+                <p>✔ <strong>Affiliation</strong> : <a href="http://mpbse.nic.in/" target="_blank">Madhya Pradesh Board of Secondary Education (MPBSE)</a></p>
+                <p>✔ <strong>Stream</strong> : PCM<i>+</i>B</p>
+                <p>✔ <strong>Subjects</strong> : Physics, Chemistry, Mathematics, Hindi , English And Biology Addinional </p>
+                <p>✔ <strong>Final Score</strong> : 82%</p>
+                <p>✔ <strong>Relevant Docs</strong> : <a style="color:blue" href="https://drive.google.com/open?id=12kbWLs4KhgZ2Sq3wbiB2_rxrnNYOYzPn" target="_blank">12th Marksheet</a>, </p>
                 <br>
                 <br>
                 <!--quick fact for school closed-->
@@ -102,11 +105,11 @@ require '../../header.php';
                 </center>
                 <br>
                 <!--quick fact for school start-->
-                <p>✔&nbsp;<strong>School</strong>&nbsp;:&nbsp;<a href="http://www.bjvmandla.com/" target="_blank">Bharat Jyoti Vidyalaya , Mandla</a></p>
-                <p>✔&nbsp;<strong>Affiliation</strong>&nbsp;:&nbsp;<a href="http://mpbse.nic.in/" target="_blank">Madhya Pradesh Board of Secondary Education (MPBSE)</a></p>
-                <p>✔&nbsp;<strong>Subjects</strong>&nbsp;: Physics, Chemistry, Mathematics, Hindi , English And Sanskrit </p>
-                <p>✔&nbsp;<strong>Final Score</strong>&nbsp;: 80%</p>
-                <p>✔&nbsp;<strong>Relevant Docs</strong>&nbsp;:&nbsp;<a style="color:blue" href="https://drive.google.com/open?id=1dTTedsit4dr48vTcozLG4Y3_CQVjFHxk" target="_blank">10th Marksheet</a>,&nbsp;</p>
+                <p>✔ <strong>School</strong> : <a href="http://www.bjvmandla.com/" target="_blank">Bharat Jyoti Vidyalaya , Mandla</a></p>
+                <p>✔ <strong>Affiliation</strong> : <a href="http://mpbse.nic.in/" target="_blank">Madhya Pradesh Board of Secondary Education (MPBSE)</a></p>
+                <p>✔ <strong>Subjects</strong> : Physics, Chemistry, Mathematics, Hindi , English And Sanskrit </p>
+                <p>✔ <strong>Final Score</strong> : 80%</p>
+                <p>✔ <strong>Relevant Docs</strong> : <a style="color:blue" href="https://drive.google.com/open?id=1dTTedsit4dr48vTcozLG4Y3_CQVjFHxk" target="_blank">10th Marksheet</a>, </p>
                 <br>
                 <br>
                 <!--quick fact for school closed-->
