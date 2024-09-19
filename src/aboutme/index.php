@@ -4,11 +4,8 @@ $nav = 2;
 require '../header.php';
 ?>
 </script>
-
 <div class="container">
-
     <div class="row">
-
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
                 <div class="panel-heading panel-heading-custom"
@@ -23,7 +20,6 @@ require '../header.php';
                             Me</a> .
                     </p>
                     <br>
-
                     <!--my detail table-->
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -54,11 +50,9 @@ require '../header.php';
                                         <td>:</td>
                                         <td>Astronomy, Mathematics, Philosophy.</td>
                                     </tr>
-
                                 </tbody>
                             </table>
                         </div>
-
                         <div class="col-xs-12 col-sm-6">
                             <table class="table table-striped title2">
                                 <tbody>
@@ -82,7 +76,6 @@ require '../header.php';
                                         <td>:</td>
                                         <td>Eating ,Traveling</td>
                                     </tr>
-
                                     <tr>
                                         <td>a.k.a</td>
                                         <td>:</td>
@@ -90,23 +83,17 @@ require '../header.php';
                                     </tr>
                                 </tbody>
                             </table>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
         <!--all about me close-->
-
         <!--A Short Autobiography start-->
         <div class="col-xs-12">
             <div class="panel panel-primary">
-
                 <div class="panel-heading panel-heading-custom"
                     style="background: #F44336; color: #fff; font-size:20px;">A Short Autobiography</div>
-
                 <div class="panel-body" style="padding:30px;">
                     <p class="title2">
                         <br> I am 20 years old. I am medium height (about ~ 5'8'' Feet) but I weigh about 143.3 lbs (65
@@ -146,8 +133,6 @@ require '../header.php';
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-
-<?php require '../footer.php';
+<?php require '../footer.php';?>

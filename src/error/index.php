@@ -1,22 +1,19 @@
 <?php
-
-       $title = 'Pt. Prashant Triapthi :: ERROR-404';
-       //$nav=2;
-       require '../header.php';
-        /*400 (Bad Request)
-        /error/?error=400
-        401 (Unauthorized)
-        /error/?error=401
-        403 (Forbidden)
-        /error/?error=402
-        404 (Not Found)
-        /error/?error=403
-        503 (Service Unavailable)
-        /error/?error=403
-        Alter ErrorPages*/
-
+$title = 'Pt. Prashant Triapthi :: ERROR-404';
+//$nav=2;
+require '../header.php';
+/*400 (Bad Request)
+/error/?error=400
+401 (Unauthorized)
+/error/?error=401
+403 (Forbidden)
+/error/?error=402
+404 (Not Found)
+/error/?error=403
+503 (Service Unavailable)
+/error/?error=403
+Alter ErrorPages*/
 ?>
-
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -30,3 +27,5 @@
         </div>
     </div>
 </div>
+<!--footer start-->
+<?php require 'footer.php'; ?>

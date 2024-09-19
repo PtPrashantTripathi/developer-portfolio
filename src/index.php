@@ -19,7 +19,7 @@ require 'header.php';
         </div>
     </div>
     <!--motivational quaotes-->
-    <div class="row" id="main_quote">       
+    <div class="row" id="main_quote">
         <div class="col-xs-12">
             <h3 id="slok"></h3>
         </div>
@@ -189,22 +189,21 @@ require 'header.php';
 </div>
 <script>
     // gitaslokid function
-function gitaslokid() {
-    const slokcount = [47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78];
-    const chapter = Math.floor(Math.random() * 18) + 1;  // Modified to include all 18 chapters
-    const slok = Math.floor(Math.random() * slokcount[chapter - 1]) + 1;
-    return `https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/main/slok/bhagavadgita_chapter_${chapter}_slok_${slok}.json`;
-}
-fetch(gitaslokid())
-  .then(response => response.json())
-  .then(data => {
-    // Assuming 'data' contains the verse text in a field like 'slok'
-    document.getElementById('slok').innerText = data.slok; // Adjust based on actual response structure
-  })
-  .catch(error => {
-    console.error("Error fetching data:", error);
-  });
-
+    function gitaslokid() {
+        const slokcount = [47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78];
+        const chapter = Math.floor(Math.random() * 18) + 1; // Modified to include all 18 chapters
+        const slok = Math.floor(Math.random() * slokcount[chapter - 1]) + 1;
+        return `https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/main/slok/bhagavadgita_chapter_${chapter}_slok_${slok}.json`;
+    }
+    fetch(gitaslokid())
+        .then(response => response.json())
+        .then(data => {
+            // Assuming 'data' contains the verse text in a field like 'slok'
+            document.getElementById('slok').innerText = data.slok; // Adjust based on actual response structure
+        })
+        .catch(error => {
+            console.error("Error fetching data:", error);
+        });
 </script>
 <!--footer start-->
-<?php require 'footer.php';
+<?php require 'footer.php'; ?>

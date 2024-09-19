@@ -1,5 +1,5 @@
 <?php
-$title = 'Pt. Prashant Triapthi :: HTML Tutorial';
+$title = 'Pt. Prashant Triapthi :: Smart Resistance Calculator ';
 $nav = 3;
 require '../../header.php';
 ?>
@@ -7,20 +7,19 @@ require '../../header.php';
     <div class="row">
         <div class="col-xs-12 ">
             <div class="panel panel-primary">
-                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Htm Tutorial <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
+                <div class="panel-heading panel-heading-custom" style="background: #F44336; color: #fff; font-size:20px;">Smart Resistance Calculator <a href="/portfolio/" style="color:#fff"><span class="pull-right hidden-xs">View more projects</span></a></div>
                 <div class="panel-body" style="padding:50px;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
-                            <p class="title1">HTML Tutorial</p>
-                            <p>A onffile android app which provide user to write html code.</p>
-                            <p>It also give facility to Run/Execute them.</p>
+                            <p class="title1">Smart Resistance Calculator</p>
+                            <p>A android app which provide user to calc the Values of Resister.</p>
                             <p>It is Simpaly functional android app</p>
-                            <p>To view this project and downlode (<a href="https://drive.google.com/open?id=0B4jxiBRriV_lbDZZVmpwVnczTUk" style="color:blue;" target="_blank">Click here</a>)</p>
+                            <p>To view source code & live working of this project <a href="https://ptprashanttripathi.github.io/Smart-Resisrance-Calculator/" style="color:blue;" target="_blank">View on github.io</a></p>
+                            <p>And Click Hare to downlode this project <a href="https://drive.google.com/open?id=0B4jxiBRriV_lQjM4dHktTmIxN3c" style="color:blue;" target="_blank">Smart-Resisrance-Calculator.apk</a></p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <img src="../../assets/image/html1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                            <img src="../../assets/image/html2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
-                            <img src="../../assets/image/html3.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                            <img src="../../assets/image/src1.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
+                            <img src="../../assets/image/src2.png" class="img img-thumbnail img-responsive" style="height:240px;width:135px;margin:10px;">
                         </div>
                     </div>
                     <br>
@@ -31,12 +30,10 @@ require '../../header.php';
                             <hr width="30%" style="margin:0px">
                             <br>
                             <!--quick fact start-->
-                            <p>✔&nbsp;Completely Offline Learing app.</p>
+                            <p>✔&nbsp;Completely Offline Resister value Calculator.</p>
                             <p>✔&nbsp;Responsive Interface.</p>
-                            <p>✔&nbsp;Includes Complete description of Html.</p>
-                            <p>✔&nbsp;Also includes The Html Code Examples of every Topic..</p>
-                            <p>✔&nbsp;All Tags with example.</p>
-                            <p>✔&nbsp;Test Code .</p>
+                            <p>✔&nbsp;Includes Complete guide.</p>
+                            <p>✔&nbsp;Easy to use.</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <p class="title1">Technology use</p>
