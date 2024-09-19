@@ -3,6 +3,9 @@
 if (!isset($nav)) {
     $nav = 0;
 }
+if (!isset($title)) {
+    $title = "Header";
+}
 
 date_default_timezone_set('Asia/Calcutta');
 error_reporting(E_ALL);

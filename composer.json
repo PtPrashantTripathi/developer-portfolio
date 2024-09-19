@@ -1,10 +1,10 @@
 {
     "name": "ptprashanttripathi/developer-portfolio",
-    "description": "My personal blog",
+    "description": "My personal Portfolio Blog",
     "type": "project",
     "authors": [
         {
-            "name": "PtPrashantTripathi",
+            "name": "ptprashanttripathi",
             "email": "ptprashanttripathi@outlook.com"
         }
     ],

@@ -35,7 +35,7 @@
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-facebook-box"></i>&nbsp;Facebook :
-                                    <a href="https://www.facebook.com/PtPrashantTripathi"> #PtPrashantTriapthi</a></p>
+                                    <a href="https://www.facebook.com/ptprashanttripathi"> #PtPrashantTriapthi</a></p>
                                 <br>
 
                                 <p class="title2" style="font-size:16px;"><i class="mdi mdi-google-plus-box"></i>&nbsp;Google+ :
