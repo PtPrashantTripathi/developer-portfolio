@@ -1,0 +1,5 @@
+ErrorDocument 400 http://localhost:8000/404.php
+ErrorDocument 401 http://localhost:8000/404.php
+ErrorDocument 403 http://localhost:8000/404.php
+ErrorDocument 404 http://localhost:8000/404.php
+ErrorDocument 503 http://localhost:8000/404.php

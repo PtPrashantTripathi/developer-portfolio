@@ -1,7 +1,7 @@
 <?php
 $title = 'Pt. Prashant Triapthi :: ERROR-404';
 //$nav=2;
-require '../header.php';
+require './header.php';
 /*400 (Bad Request)
 /error/?error=400
 401 (Unauthorized)
@@ -28,4 +28,10 @@ Alter ErrorPages*/
     </div>
 </div>
 <!--footer start-->
-<?php require '../footer.php'; ?>
+<script>
+    // Redirect after 10 seconds (10000 milliseconds)
+    setTimeout(function() {
+        window.location.href = "/";
+    }, 10000);
+</script>
+<?php require './footer.php'; ?>
